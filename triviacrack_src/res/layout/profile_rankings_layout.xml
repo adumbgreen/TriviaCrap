@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/header_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ProfileSectionRankingsTitle" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ProfileLevelContainerTheme">
+        <com.etermax.preguntados.ui.profile.ProfileRankingsItemView_ android:id="@id/first_place_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <View style="@style/ProfileRankingItemDivider" />
+        <com.etermax.preguntados.ui.profile.ProfileRankingsItemView_ android:id="@id/second_place_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <View style="@style/ProfileRankingItemDivider" />
+        <com.etermax.preguntados.ui.profile.ProfileRankingsItemView_ android:id="@id/third_place_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

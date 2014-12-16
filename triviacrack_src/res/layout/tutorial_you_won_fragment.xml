@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/CategorySelectedTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:id="@id/category_title_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tutorial_you_won_margin" android:text="@string/you_won" style="@style/CategoryTitleTheme" />
+    <com.etermax.tools.widget.CustomFontButton android:id="@id/continue_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/question_answer_button_padding" android:layout_marginRight="@dimen/question_answer_button_padding" android:layout_marginBottom="@dimen/tutorial_you_won_continue_margin" android:text="@string/continue_" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" style="@style/ContinueButtonTheme" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/continue_button" android:layout_below="@id/category_title_textview">
+        <RelativeLayout android:id="@id/category_character_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/category_character_container_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

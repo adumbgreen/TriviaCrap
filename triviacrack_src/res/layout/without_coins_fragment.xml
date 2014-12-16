@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/CategorySelectedTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:padding="@dimen/leftright_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:id="@id/without_coins_title_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/without_coins_margin" android:text="@string/no_more_coins" style="@style/CategoryTitleTheme" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/without_coins_buttons_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_above="@id/without_coins_buttons_container" android:layout_below="@id/without_coins_title_textview">
+                <ImageView android:padding="5.0dip" android:src="@drawable/character_coins_not_enough" android:scaleType="centerInside" style="@style/WithoutCoinsImageStyle" />
+                <com.etermax.tools.widget.CustomFontTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/not_enough_coins" style="@style/GetSpinSubtitle" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <com.etermax.tools.widget.CustomLinearButton android:id="@id/without_coins_close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/leftright_padding" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/RedButtonCloseTheme">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_close" android:scaleType="centerInside" />
+    </com.etermax.tools.widget.CustomLinearButton>
+</RelativeLayout>

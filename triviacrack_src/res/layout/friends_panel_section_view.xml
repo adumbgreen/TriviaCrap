@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:emx="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/divider_top" android:background="@color/friends_panel_section_divider_top" android:layout_width="fill_parent" android:layout_height="@dimen/navigation_panel_divider_height" />
+    <com.etermax.tools.widget.CustomFontTextView android:textSize="@dimen/friends_panel_section_text_size" android:textColor="@color/friends_panel_section_text" android:id="@id/title" android:paddingTop="@dimen/navigation_panel_section_padding" android:paddingBottom="@dimen/navigation_panel_section_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/navigation_panel_item_icon_margin_left" android:shadowColor="@color/black" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="1.0" android:layout_below="@id/divider_top" style="@style/FriendsPanelSectionTextTheme" />
+    <View android:id="@id/divider_bottom" android:background="@color/friends_panel_section_divider_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/navigation_panel_divider_height" android:layout_below="@id/title" />
+</merge>

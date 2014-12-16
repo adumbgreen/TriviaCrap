@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/CategorySelectedTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.etermax.tools.widget.CustomLinearButton android:id="@id/closeButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/leftright_padding" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/RedButtonCloseTheme">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_close" android:scaleType="centerInside" />
+    </com.etermax.tools.widget.CustomLinearButton>
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/get_spins_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/game_end_padding" android:text="@string/no_more_extra_spin" android:layout_below="@id/closeButton" style="@style/GetSpinTitle" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/get_spins_container" android:paddingLeft="@dimen/leftright_padding" android:paddingRight="@dimen/leftright_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/game_end_padding" android:layout_below="@id/get_spins_title">
+        <RelativeLayout android:id="@id/get_spins_character" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/get_spins_character_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/character_spin_not_enough" />
+        </RelativeLayout>
+        <com.etermax.tools.widget.CustomFontTextView android:id="@id/get_spins_ask_text" android:padding="5.0dip" android:paddingTop="@dimen/get_spin_subtitle_padding" android:paddingBottom="@dimen/get_spin_subtitle_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/game_end_padding" android:text="@string/ask_friends_02" android:layout_toRightOf="@id/get_spins_character" style="@style/GetSpinSubtitle" />
+        <com.etermax.tools.widget.CustomLinearButton android:gravity="center" android:id="@id/get_spins_button_ask_friends" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_toRightOf="@id/get_spins_character" android:layout_below="@id/get_spins_ask_text" android:layout_centerHorizontal="true" style="@style/GetSpinFacebookButtonTheme">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/profile_facebook_icon" />
+            <com.etermax.tools.widget.CustomFontTextView android:textSize="16.0dip" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/ask_friends_tickets" android:singleLine="true" style="@style/SecondaryFont" adjuntFontSizeToFitWidth="true" />
+        </com.etermax.tools.widget.CustomLinearButton>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/get_spins_buy_buttons_container" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/get_spins_container" />
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/image_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/rankings_image_padding">
+        <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/timer_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.etermax.tools.widget.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/finish_in" style="@style/RankingsEndTimeTheme" />
+        <FrameLayout android:orientation="horizontal" android:background="@drawable/background_duel_mode_timer" android:padding="@dimen/rankings_timer_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rankings_timer_padding" android:layout_marginRight="@dimen/rankings_timer_padding">
+            <RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.etermax.tools.widget.CustomFontTextView android:id="@id/days" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/rankings_timer_padding" style="@style/RankingsTimerNumberTheme" />
+                <com.etermax.tools.widget.CustomFontTextView android:id="@id/days_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/days" android:layout_alignLeft="@id/days" android:layout_alignRight="@id/days" style="@style/RankingsTimerTextTheme" />
+                <com.etermax.tools.widget.CustomFontTextView android:id="@id/hours" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/days" style="@style/RankingsTimerNumberTheme" />
+                <com.etermax.tools.widget.CustomFontTextView android:id="@id/hours_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/time_unit_hour_ab" android:layout_below="@id/hours" android:layout_alignLeft="@id/hours" android:layout_alignRight="@id/hours" style="@style/RankingsTimerTextTheme" />
+                <com.etermax.tools.widget.CustomFontTextView android:id="@id/colon_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=":" android:layout_toRightOf="@id/hours" style="@style/RankingsTimerColonTheme" />
+                <com.etermax.tools.widget.CustomFontTextView android:id="@id/minutes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/colon_left" style="@style/RankingsTimerNumberTheme" />
+                <com.etermax.tools.widget.CustomFontTextView android:id="@id/minutesLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/time_unit_minute_ab" android:layout_below="@id/minutes" android:layout_alignLeft="@id/minutes" android:layout_alignRight="@id/minutes" style="@style/RankingsTimerTextTheme" />
+                <com.etermax.tools.widget.CustomFontTextView android:id="@id/colon_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=":" android:layout_toRightOf="@id/minutes" style="@style/RankingsTimerColonTheme" />
+                <com.etermax.tools.widget.CustomFontTextView android:id="@id/seconds" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/colon_right" style="@style/RankingsTimerNumberTheme" />
+                <com.etermax.tools.widget.CustomFontTextView android:id="@id/seconds_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/time_unit_second_ab" android:layout_below="@id/seconds" android:layout_alignLeft="@id/seconds" android:layout_alignRight="@id/seconds" style="@style/RankingsTimerTextTheme" />
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

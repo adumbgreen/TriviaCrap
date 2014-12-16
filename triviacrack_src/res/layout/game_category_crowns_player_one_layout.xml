@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.etermax.preguntados.ui.game.category.widget.CategoryCrownsView android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="6.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/crown_01" style="@style/CategoryCrown" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/crown_02" style="@style/CategoryCrown" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/crown_03" style="@style/CategoryCrown" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/crown_04" style="@style/CategoryCrown" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/crown_05" style="@style/CategoryCrown" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/crown_06" style="@style/CategoryCrown" />
+    </LinearLayout>
+</com.etermax.preguntados.ui.game.category.widget.CategoryCrownsView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/achievements_grid_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/AchievementItemTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/achievement_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/AchievementIcon" />
+    <ProgressBar android:id="@id/achievement_progress_bar" android:layout_width="wrap_content" android:layout_height="@dimen/achievements_grid_progressbar_height" android:layout_marginTop="@dimen/achievements_grid_progressbar_padding" android:layout_marginBottom="@dimen/achievements_grid_progressbar_padding" android:max="100" android:layout_below="@id/achievement_icon" android:layout_centerHorizontal="true" style="@style/AchievementProgressBar" />
+    <com.etermax.tools.widget.CustomFontTextView android:gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minLines="2" android:layout_below="@id/achievement_progress_bar" android:layout_centerHorizontal="true" style="@style/AchievementGridTitle" />
+</RelativeLayout>

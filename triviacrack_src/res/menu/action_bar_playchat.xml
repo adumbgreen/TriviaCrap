@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/icon_menu" android:id="@id/action_more" android:orderInCategory="2" android:title="More" app:showAsAction="always" />
+    <item android:icon="@drawable/icon_attachment" android:id="@id/action_send" android:orderInCategory="1" android:title="Send" app:showAsAction="always" />
+</menu>

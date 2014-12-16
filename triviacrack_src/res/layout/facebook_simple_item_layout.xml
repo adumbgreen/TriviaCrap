@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DashboardItemTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/facebook_simple_item_image" android:layout_width="@dimen/player_item_icon_size" android:layout_height="@dimen/player_item_icon_size" android:src="@drawable/fb_link" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/DashboardLeftFlagTheme" />
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/facebook_simple_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/facebook_simple_item_image" style="@style/FacebookSimpleItemTitleTheme" />
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/facebook_simple_item_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/facebook_simple_item_image" android:layout_below="@id/facebook_simple_item_title" style="@style/FacebookSimpleItemSubTextTheme" />
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/time_text_view" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/facebook_simple_item_description" android:layout_alignLeft="@id/facebook_simple_item_description" style="@style/DashboardItemTimeTheme" />
+    <View android:id="@id/divider" android:layout_width="fill_parent" android:layout_alignParentBottom="true" style="@style/DashboardListDivider" />
+</RelativeLayout>

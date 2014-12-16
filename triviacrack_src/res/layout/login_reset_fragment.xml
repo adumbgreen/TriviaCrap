@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/background_layout" />
+    <include android:id="@id/login_reset_header" layout="@layout/login_header" />
+    <View android:id="@id/navbar_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/login_reset_header" style="@style/NavbarDividerTheme" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/login_layout_padding" android:paddingRight="@dimen/login_layout_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/navbar_divider" style="@style/LoginPasswordReset">
+        <com.etermax.tools.widget.CustomFontTextView android:textStyle="bold" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/reset_your_password" style="@style/LoginResetPasswordTitle" />
+        <com.etermax.tools.widgetv2.CustomFontButton android:id="@id/reset_password_button" android:layout_marginTop="@dimen/login_item_gap" android:text="@string/reset_password" style="@style/ButtonResetPassword" />
+        <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/login_item_gap" android:text="@string/account_with_no_password" style="@style/LoginResetPasswordText" />
+    </LinearLayout>
+</RelativeLayout>

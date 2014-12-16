@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ProfileUserRoot"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:emx="http://schemas.android.com/apk/res-auto">
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/header" android:text="@string/filters" style="@style/HeaderTitleBlue" />
+    <com.etermax.tools.widget.CustomFontTextView android:textSize="16.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:text="@string/search_options" style="@style/CustomFont" />
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/account_table_margin_bottom" style="@style/AccountTableTheme">
+        <TableRow android:gravity="center" android:layout_gravity="center_vertical" style="@style/AccountTableRowTheme">
+            <com.etermax.tools.widget.CustomFontTextView android:gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/language" android:layout_weight="1.0" style="@style/AccountTableTextTheme" />
+            <com.etermax.tools.widget.CustomFontTextView android:gravity="left|center" android:id="@id/inputLanguage" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Español" android:layout_weight="2.0" android:imeOptions="actionDone" style="@style/AccountEditTextTheme" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/AccountProfileItemArrow" />
+        </TableRow>
+        <View android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/AccountTableSeparatorTheme" />
+        <TableRow android:gravity="center" android:layout_gravity="center_vertical" style="@style/AccountTableRowTheme">
+            <com.etermax.tools.widget.CustomFontTextView android:gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gender" android:layout_weight="1.0" style="@style/AccountTableTextTheme" />
+            <Spinner android:gravity="left|center" android:id="@id/input_gender_s" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:prompt="@string/gender" android:layout_weight="2.0" style="@style/AccountEditTextTheme" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/AccountProfileItemArrow" />
+        </TableRow>
+        <View android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/AccountTableSeparatorTheme" />
+        <TableRow android:gravity="center" android:layout_gravity="center_vertical" android:weightSum="20.0" style="@style/AccountTableRowTheme">
+            <com.etermax.tools.widget.CustomFontTextView android:gravity="left|center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/age" android:layout_weight="3.0" style="@style/AccountTableTextTheme" />
+            <RelativeLayout android:id="@id/lytAge" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="17.0">
+                <com.etermax.tools.widget.CustomFontTextView android:textColor="@color/black" android:gravity="right" android:id="@id/txtMin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="18" android:ems="2" android:layout_alignParentLeft="true" android:layout_centerVertical="true" emx:font="secondary.otf" />
+                <com.etermax.tools.widget.CustomFontTextView android:textColor="@color/black" android:id="@id/txtMax" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="75+" android:ems="2" android:layout_alignParentRight="true" android:layout_centerVertical="true" emx:font="secondary.otf" />
+            </RelativeLayout>
+        </TableRow>
+        <View android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/AccountTableSeparatorTheme" />
+        <TableRow android:gravity="center" android:layout_gravity="center_vertical" style="@style/AccountTableRowTheme">
+            <com.etermax.tools.widget.CustomFontTextView android:gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/online_users" android:layout_weight="1.0" style="@style/AccountTableTextTheme" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ToggleButton android:id="@id/tglOnline" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="" android:textOff="" style="@style/PreferencesToggle" />
+            </RelativeLayout>
+        </TableRow>
+    </TableLayout>
+    <com.etermax.tools.widgetv2.CustomFontButton android:id="@id/btnSearch" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/search" emx:font="primary.ttf" style="@style/DefaultButtonBackground" />
+</LinearLayout>

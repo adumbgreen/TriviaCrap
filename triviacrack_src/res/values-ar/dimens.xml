@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="login_choose_ok_text">14.0dip</dimen>
+    <dimen name="login_choose_ok_margin">0.0dip</dimen>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/CouponBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:id="@id/title_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/have_coupon" style="@style/CouponTitle" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="45.0dip" android:layout_marginRight="45.0dip">
+        <com.etermax.tools.widget.CustomFontEditText android:gravity="center" android:id="@id/code_field" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:hint="@string/enter_code" android:singleLine="true" android:maxLength="20" android:inputType="textVisiblePassword|textCapCharacters" android:imeOptions="actionSend" style="@style/CouponCodeField" />
+        <com.etermax.tools.widgetv2.CustomFontButton android:id="@id/send_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/send" style="@style/CouponSendButton" />
+        <RelativeLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+            <View android:background="@color/white" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_toLeftOf="@id/coupon_or_view" android:layout_centerVertical="true" />
+            <com.etermax.tools.widget.CustomFontTextView android:id="@id/coupon_or_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/or" android:layout_centerInParent="true" style="@style/CouponOrLine" />
+            <View android:background="@color/white" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_toRightOf="@id/coupon_or_view" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <com.etermax.tools.widgetv2.CustomFontButton android:id="@id/scan_qr_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/scan_qr_code" style="@style/CouponScanQrButton" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/coupon_image_view" style="@style/CouponImage" />
+    </FrameLayout>
+</LinearLayout>

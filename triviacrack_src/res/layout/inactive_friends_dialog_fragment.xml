@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/popup_inactive_dialog_margin" android:layout_marginTop="@dimen/popup_inactive_dialog_margin" android:layout_marginRight="@dimen/popup_inactive_dialog_margin" style="@style/PopupTheme">
+        <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:id="@id/inactive_friends_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="6.0dip" android:text="Inactive Friends Title S I" style="@style/PopupTitleTheme" />
+        <ListView android:gravity="center" android:id="@id/inactive_friends_listview" android:layout_width="fill_parent" android:layout_height="@dimen/gifting_dialog_listview_height" style="@style/InactiveFriendsContentTheme" />
+        <com.etermax.tools.widgetv2.CustomFontButton android:gravity="center" android:id="@id/inactive_friends_dialog_send_button" android:layout_height="wrap_content" android:layout_marginTop="@dimen/popup_button_top_bottom_margin" android:layout_marginBottom="@dimen/popup_button_top_bottom_margin" android:text="@string/send" style="@style/PopupAcceptAllButtonTheme" />
+    </LinearLayout>
+    <com.etermax.tools.widget.CustomLinearButton android:id="@id/inactive_friends_dialog_close_button" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_margin="@dimen/leftright_padding" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/RedButtonCloseTheme">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" style="@style/PopupCloseButtonTheme" />
+    </com.etermax.tools.widget.CustomLinearButton>
+</RelativeLayout>

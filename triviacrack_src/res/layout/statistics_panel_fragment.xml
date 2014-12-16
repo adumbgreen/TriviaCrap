@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/background_layout" />
+    <include android:id="@id/questions_factory_header" layout="@layout/questions_factory_header_layout" />
+    <View android:id="@id/navbar_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/questions_factory_header" style="@style/NavbarDividerTheme" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_below="@id/navbar_divider">
+        <LinearLayout android:orientation="vertical" android:id="@id/questions_factory_panel_buttons_container" android:padding="@dimen/leftright_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.etermax.tools.widget.CustomLinearButton android:orientation="vertical" android:id="@id/statistics_panel_suggest_button" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/WhiteButtonTheme">
+                <RelativeLayout android:paddingLeft="@dimen/leftright_padding" android:paddingRight="@dimen/leftright_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/statistics_panel_suggest_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_suggest" android:layout_centerVertical="true" />
+                    <com.etermax.tools.widget.CustomFontTextView android:id="@id/statistics_panel_suggest_counter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/StatisticsPanelCounterTheme" />
+                    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/statistics_panel_suggest_counter" android:layout_toRightOf="@id/statistics_panel_suggest_icon" android:layout_centerVertical="true">
+                        <com.etermax.tools.widget.CustomFontTextView android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/suggested_questions" style="@style/QuestionsFactoryPanelButtonTitle" />
+                        <com.etermax.tools.widget.CustomFontTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/suggested_questions_txt" style="@style/StatisticsPanelButtonSubtitle" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </com.etermax.tools.widget.CustomLinearButton>
+            <View android:layout_width="fill_parent" android:layout_height="@dimen/topbottom_padding" />
+            <com.etermax.tools.widget.CustomLinearButton android:orientation="vertical" android:id="@id/statistics_panel_translate_button" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/WhiteButtonTheme">
+                <RelativeLayout android:paddingLeft="@dimen/leftright_padding" android:paddingRight="@dimen/leftright_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/statistics_panel_translate_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_translate" android:layout_centerVertical="true" />
+                    <com.etermax.tools.widget.CustomFontTextView android:id="@id/statistics_panel_translate_counter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/StatisticsPanelCounterTheme" />
+                    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/statistics_panel_translate_counter" android:layout_toRightOf="@id/statistics_panel_translate_icon" android:layout_centerVertical="true">
+                        <com.etermax.tools.widget.CustomFontTextView android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/translated_questions" style="@style/QuestionsFactoryPanelButtonTitle" />
+                        <com.etermax.tools.widget.CustomFontTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/translated_questions_txt" style="@style/StatisticsPanelButtonSubtitle" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </com.etermax.tools.widget.CustomLinearButton>
+            <View android:layout_width="fill_parent" android:layout_height="@dimen/topbottom_padding" />
+            <com.etermax.tools.widget.CustomLinearButton android:orientation="vertical" android:id="@id/statistics_panel_rate_button" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/MyQuestionsRatedButtonTheme">
+                <RelativeLayout android:paddingLeft="@dimen/leftright_padding" android:paddingRight="@dimen/leftright_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/statistics_panel_rate_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_rate" android:layout_centerVertical="true" />
+                    <com.etermax.tools.widget.CustomFontTextView android:id="@id/statistics_panel_rate_counter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/StatisticsPanelCounterTheme" />
+                    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/statistics_panel_rate_counter" android:layout_toRightOf="@id/statistics_panel_rate_icon" android:layout_centerVertical="true">
+                        <com.etermax.tools.widget.CustomFontTextView android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/rated_questions" style="@style/QuestionsFactoryPanelButtonTitle" />
+                        <com.etermax.tools.widget.CustomFontTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/rated_questions_txt" style="@style/StatisticsPanelButtonSubtitle" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </com.etermax.tools.widget.CustomLinearButton>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

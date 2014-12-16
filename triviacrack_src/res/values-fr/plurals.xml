@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days">
+        <item quantity="other">%1$d jours</item>
+        <item quantity="one">1 jour</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%1$d heures</item>
+        <item quantity="one">1 heure</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%1$d minutes</item>
+        <item quantity="one">1 minute</item>
+    </plurals>
+    <plurals name="new_messages">
+        <item quantity="other">%1$d nouveaux messages</item>
+        <item quantity="one">1 nouveau message</item>
+    </plurals>
+    <plurals name="amount_player">
+        <item quantity="other">%1$d Joueurs</item>
+        <item quantity="one">%1$d Joueur</item>
+    </plurals>
+    <plurals name="characters_limit">
+        <item quantity="other">Vous devez écrire au moins %1$d caractères .</item>
+        <item quantity="one">Vous devez écrire au moins 1 caractère.</item>
+    </plurals>
+    <plurals name="coins_pack">
+        <item quantity="other">pack de %1$d Pièces</item>
+        <item quantity="one">pack de %1$d Pièce</item>
+    </plurals>
+    <plurals name="lives_pack">
+        <item quantity="other">pack de %1$d Vies</item>
+        <item quantity="one">pack de %1$d Vie</item>
+    </plurals>
+    <plurals name="push_gifting_send_01">
+        <item quantity="other">"Il y a %1$d jours qu'il ne gagne pas . Aidez-le !"</item>
+        <item quantity="one">"Il y a 1 jour qu'il ne gagne pas . Aidez-le !"</item>
+    </plurals>
+    <plurals name="spins_pack">
+        <item quantity="other">pack de %1$d Tours</item>
+        <item quantity="one">pack de %1$d Tour</item>
+    </plurals>
+    <plurals name="user_common_friend">
+        <item quantity="other">Vous avez %1$d amis en commun, parmi eux %2$s et %3$s</item>
+        <item quantity="one">Vous avez un ami en commun</item>
+    </plurals>
+    <plurals name="user_favourite">
+        <item quantity="other">%1$s a marqué comme favori %2$d %3$s</item>
+        <item quantity="one">%1$s a marqué comme favori %2$s</item>
+    </plurals>
+    <plurals name="user_follow_now">
+        <item quantity="other">%1$s suit maintenant à %2$d amis</item>
+        <item quantity="one">%1$s suit maintenant à %2$s</item>
+    </plurals>
+    <plurals name="user_lost_group_challenge">
+        <item quantity="other">Je viens de perdre le duel entre amis %1$s contre %2$d amis à Trivia Crack</item>
+        <item quantity="one">Je viens de perdre le duel entre amis %1$s à Trivia Crack</item>
+    </plurals>
+    <plurals name="user_lost_worldcup_challenge">
+        <item quantity="other">Je viens de perdre le Défi Mondial %1$s contre %2$d amis à Trivia Crack</item>
+        <item quantity="one">Je viens de perdre le Défi Mondial %1$s à Trivia Crack</item>
+    </plurals>
+    <plurals name="user_won_group_challenge">
+        <item quantity="other">Je viens juste de gagner le duel entre amis %1$s contre %2$d amis sur Trivia Crack!</item>
+        <item quantity="one">Je viens juste de gagner le duel entre amis %1$s sur Trivia Crack!</item>
+    </plurals>
+    <plurals name="user_won_worldcup_challenge">
+        <item quantity="other">Je viens juste de gagner le Défi Mondial %1$s contre %2$d amis sur Trivia Crack!</item>
+        <item quantity="one">Je viens juste de gagner le Défi Mondial %1$s sur Trivia Crack!</item>
+    </plurals>
+    <plurals name="x_coupons_deal">
+        <item quantity="other">"You've entered %1$d coupons from %2$s's deal."</item>
+        <item quantity="one">"You've entered 1 coupon from %1$s's deal."</item>
+    </plurals>
+</resources>

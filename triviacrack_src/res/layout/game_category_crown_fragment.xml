@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/categoryCrownFragmentLayout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false" style="@style/CategorySelectedTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.etermax.tools.widget.CustomFontButton android:id="@id/crown_button" android:layout_width="@dimen/category_crown_button_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/category_confirmation_button_padding" android:layout_marginBottom="@dimen/category_confirmation_button_padding" android:text="@string/crown" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" style="@style/CrownButtonTheme" />
+    <com.etermax.tools.widget.CustomFontButton android:id="@id/challenge_button" android:layout_width="@dimen/category_crown_button_width" android:layout_height="wrap_content" android:layout_marginRight="@dimen/category_confirmation_button_padding" android:layout_marginBottom="@dimen/category_confirmation_button_padding" android:text="@string/trivia_challenge" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/ChallengeButtonTheme" />
+    <RelativeLayout android:paddingTop="@dimen/category_crown_padding" android:paddingBottom="@dimen/category_crown_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/crown_button">
+        <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:id="@id/crown_or_challenge_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="@dimen/category_crown_margin_title" android:layout_marginRight="15.0dip" android:text="@string/character_or_challenge" android:layout_centerHorizontal="true" style="@style/CrownOrChallengeTitleTheme" />
+        <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:id="@id/crown_or_challenge_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/character_or_challenge_txt" android:layout_below="@id/crown_or_challenge_title" android:layout_centerHorizontal="true" style="@style/CrownOrChallengeSubtitleTheme" />
+        <RelativeLayout android:id="@id/crown_or_challenge_container" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_below="@id/crown_or_challenge_subtitle" android:layout_centerHorizontal="true">
+            <LinearLayout android:gravity="bottom|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/crown_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <RelativeLayout android:id="@id/challenge_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ImageView android:id="@id/crown_or_challenge_container_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/character_crown_or_challenge" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

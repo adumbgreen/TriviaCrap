@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/ProfileButtonsContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/own_profile_buttons" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="4.0">
+        <com.etermax.tools.widgetv2.CustomLinearButton android:gravity="center" android:orientation="vertical" android:id="@id/editButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:square="true" style="@style/ProfileButton">
+            <FrameLayout style="@style/ProfileButtonIconContainer">
+                <ImageView android:src="@drawable/edit_profile" style="@style/ProfileButtonIcon" />
+            </FrameLayout>
+            <com.etermax.tools.widget.CustomFontTextView android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/player_edit_button" style="@style/ProfileButtonText" />
+        </com.etermax.tools.widgetv2.CustomLinearButton>
+        <com.etermax.tools.widgetv2.CustomLinearButton android:gravity="center" android:orientation="vertical" android:id="@id/addFriendButton" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:square="true" style="@style/ProfileButton">
+            <FrameLayout style="@style/ProfileButtonIconContainer">
+                <ImageView android:id="@id/addFriendButtonImage" android:src="@drawable/add_friend_profile" style="@style/ProfileButtonIcon" />
+            </FrameLayout>
+            <com.etermax.tools.widget.CustomFontTextView android:id="@id/addFriendButtonText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/player_add_friend" style="@style/ProfileButtonText" />
+        </com.etermax.tools.widgetv2.CustomLinearButton>
+        <com.etermax.tools.widgetv2.CustomLinearButton android:gravity="center" android:orientation="vertical" android:id="@id/friendsButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:square="true" style="@style/ProfileButton">
+            <FrameLayout style="@style/ProfileButtonIconContainer">
+                <ImageView android:layout_gravity="center" android:id="@id/noFriendsImage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/nofriends_profile" android:scaleType="fitCenter" />
+                <com.etermax.gamescommon.profile.ui.ProfileFacebookFriendsButton_ android:layout_gravity="center" android:id="@id/facebookAvatars" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </FrameLayout>
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.etermax.tools.widget.CustomFontTextView android:id="@id/friendsCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:text="0" style="@style/ProfileButtonText" />
+                <com.etermax.tools.widget.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/friend_plural" android:singleLine="true" style="@style/ProfileButtonText" />
+            </LinearLayout>
+        </com.etermax.tools.widgetv2.CustomLinearButton>
+        <com.etermax.tools.widgetv2.CustomLinearButton android:gravity="center" android:orientation="vertical" android:id="@id/chatButton" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:square="true" style="@style/ProfileButton">
+            <FrameLayout style="@style/ProfileButtonIconContainer">
+                <ImageView style="@style/ProfileButtonChatImage" />
+            </FrameLayout>
+            <com.etermax.tools.widget.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chat" style="@style/ProfileButtonText" />
+        </com.etermax.tools.widgetv2.CustomLinearButton>
+        <com.etermax.tools.widgetv2.CustomLinearButton android:gravity="center" android:orientation="vertical" android:id="@id/blockedButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:square="true" style="@style/ProfileButton">
+            <FrameLayout style="@style/ProfileButtonIconContainer">
+                <ImageView android:src="@drawable/friend_blocked" style="@style/ProfileButtonIcon" />
+            </FrameLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.etermax.tools.widget.CustomFontTextView android:id="@id/blockedCount" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:text="0" style="@style/ProfileButtonText" />
+                <com.etermax.tools.widget.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/blocked_plural" android:singleLine="true" style="@style/ProfileButtonText" />
+            </LinearLayout>
+        </com.etermax.tools.widgetv2.CustomLinearButton>
+        <com.etermax.tools.widgetv2.CustomLinearButton android:gravity="center" android:orientation="vertical" android:id="@id/inviteButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:square="true" style="@style/ProfileButtonInvite">
+            <FrameLayout style="@style/ProfileButtonIconContainer">
+                <ImageView style="@style/ProfileButtonInviteImage" />
+            </FrameLayout>
+            <com.etermax.tools.widget.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/invite" style="@style/ProfileButtonInviteText" />
+        </com.etermax.tools.widgetv2.CustomLinearButton>
+        <com.etermax.tools.widgetv2.CustomLinearButton android:gravity="center" android:orientation="vertical" android:id="@id/playButton" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:square="true" style="@style/ProfileButtonPlay">
+            <FrameLayout style="@style/ProfileButtonIconContainer">
+                <ImageView style="@style/ProfileButtonPlayImage" />
+            </FrameLayout>
+            <com.etermax.tools.widget.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/play" style="@style/ProfileButtonPlayText" />
+        </com.etermax.tools.widgetv2.CustomLinearButton>
+    </LinearLayout>
+</LinearLayout>

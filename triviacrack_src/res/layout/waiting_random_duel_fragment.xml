@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/WaitingRandomDuelTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.etermax.tools.widget.CustomLinearButton android:id="@id/waiting_random_close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/leftright_padding" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/RedButtonCloseTheme">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_close" android:scaleType="centerInside" />
+    </com.etermax.tools.widget.CustomLinearButton>
+    <com.etermax.tools.widget.CustomFontTextView android:textSize="@dimen/waiting_random_title" android:id="@id/waiting_random_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/random_friends_challenge" android:layout_below="@id/waiting_random_close_button" style="@style/WaitingRandomTitleTheme" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/waiting_random_subtitle_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/leftright_padding" android:layout_marginRight="@dimen/leftright_padding" android:layout_marginBottom="@dimen/waiting_random_margin" android:layout_alignParentBottom="true">
+        <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:id="@id/waiting_random_time_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/challenge_will_start_in" style="@style/WaitingRandomSubTitleTheme" />
+        <RelativeLayout android:id="@id/waiting_random_time_content" android:background="@drawable/waiting_random_duel_timer_background" android:paddingLeft="35.0dip" android:paddingTop="7.0dip" android:paddingRight="35.0dip" android:paddingBottom="7.0dip" android:layout_width="@dimen/waiting_random_box_width" android:layout_height="wrap_content">
+            <com.etermax.tools.widget.CustomFontTextView android:id="@id/waiting_random_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" " android:layout_centerInParent="true" style="@style/WaitingRandomTimerTheme" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/waiting_random_subtitle_container" android:layout_below="@id/waiting_random_title">
+        <ImageView android:id="@id/waiting_random_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/duelo_01" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

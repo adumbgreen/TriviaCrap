@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Animations version="1">
+  <Animation name="geografia" totalframes="279" framerate="25">
+    <Sizes>
+      <Size name="ipad2x" width="691.0" height="911.85"/>
+      <Size name="ipad" width="345.5" height="455.925"/>
+      <Size name="iphone2x" width="295.8417" height="390.39545"/>
+      <Size name="iphone" width="147.92085" height="195.19772"/>
+      <Size name="iphone3x" width="573.9329" height="757.3672"/>
+      <Size name="xhdpi" width="332.82193" height="439.1949"/>
+      <Size name="xxhdpi" width="499.2329" height="658.79236"/>
+      <Size name="hdpi" width="249.61646" height="329.39618"/>
+      <Size name="mdpi" width="166.41096" height="219.59744"/>
+      <Size name="ldpi" width="124.80823" height="164.69809"/>
+    </Sizes>
+    <Part name="geografia_a_rain_01" posX="0.2771346" posY="0.117727704">
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_48"/>
+      <frame repeat="126" name="geografia_a_rain_01_50"/>
+      <frame repeat="1" name="geografia_a_rain_01_48"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+      <frame repeat="2" name="geografia_a_rain_01_0"/>
+      <frame repeat="2" name="geografia_a_rain_01_2"/>
+    </Part>
+    <Part name="geografia_b_leg_right_01" posX="0.31490594" posY="0.8639579">
+      <frame repeat="279" name="geografia_b_leg_right_01_0"/>
+    </Part>
+    <Part name="geografia_c_leg_left_01" posX="0.5180174" posY="0.8736635">
+      <frame repeat="3" name="geografia_c_leg_left_01_0"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_5"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_0"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_5"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_0"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_5"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_0"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_5"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_0"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_5"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_0"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_5"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_0"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_5"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_0"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="127" name="geografia_c_leg_left_01_5"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_5"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_0"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_5"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_0"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_5"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_0"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_5"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_0"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_5"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_0"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_5"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_0"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_5"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_0"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+      <frame repeat="3" name="geografia_c_leg_left_01_5"/>
+      <frame repeat="2" name="geografia_c_leg_left_01_3"/>
+    </Part>
+    <Part name="geografia_d_body_01" posX="0.06866861" posY="0.25393432">
+      <frame repeat="279" name="geografia_d_body_01_0"/>
+    </Part>
+    <Part name="geografia_e_face_01" posX="0.32279307" posY="0.39057958">
+      <frame repeat="18" name="geografia_e_face_01_0"/>
+      <frame repeat="3" name="geografia_e_face_01_18"/>
+      <frame repeat="27" name="geografia_e_face_01_0"/>
+      <frame repeat="3" name="geografia_e_face_01_18"/>
+      <frame repeat="22" name="geografia_e_face_01_0"/>
+      <frame repeat="5" name="geografia_e_face_01_18"/>
+      <frame repeat="1" name="geografia_e_face_01_78"/>
+      <frame repeat="1" name="geografia_e_face_01_79"/>
+      <frame repeat="2" name="geografia_e_face_01_80"/>
+      <frame repeat="4" name="geografia_e_face_01_82"/>
+      <frame repeat="1" name="geografia_e_face_01_86"/>
+      <frame repeat="1" name="geografia_e_face_01_87"/>
+      <frame repeat="3" name="geografia_e_face_01_88"/>
+      <frame repeat="1" name="geografia_e_face_01_87"/>
+      <frame repeat="30" name="geografia_e_face_01_82"/>
+      <frame repeat="1" name="geografia_e_face_01_86"/>
+      <frame repeat="1" name="geografia_e_face_01_87"/>
+      <frame repeat="3" name="geografia_e_face_01_88"/>
+      <frame repeat="1" name="geografia_e_face_01_87"/>
+      <frame repeat="28" name="geografia_e_face_01_82"/>
+      <frame repeat="1" name="geografia_e_face_01_86"/>
+      <frame repeat="1" name="geografia_e_face_01_87"/>
+      <frame repeat="3" name="geografia_e_face_01_88"/>
+      <frame repeat="1" name="geografia_e_face_01_87"/>
+      <frame repeat="25" name="geografia_e_face_01_82"/>
+      <frame repeat="1" name="geografia_e_face_01_80"/>
+      <frame repeat="1" name="geografia_e_face_01_79"/>
+      <frame repeat="1" name="geografia_e_face_01_78"/>
+      <frame repeat="5" name="geografia_e_face_01_18"/>
+      <frame repeat="39" name="geografia_e_face_01_0"/>
+      <frame repeat="4" name="geografia_e_face_01_18"/>
+      <frame repeat="41" name="geografia_e_face_01_0"/>
+    </Part>
+    <Part name="geografia_f_arms_01" posX="0.0" posY="0.6613478">
+      <frame repeat="77" name="geografia_f_arms_01_0"/>
+      <frame repeat="1" name="geografia_f_arms_01_77"/>
+      <frame repeat="2" name="geografia_f_arms_01_78"/>
+      <frame repeat="2" name="geografia_f_arms_01_80"/>
+      <frame repeat="1" name="geografia_f_arms_01_82"/>
+      <frame repeat="105" name="geografia_f_arms_01_83"/>
+      <frame repeat="1" name="geografia_f_arms_01_82"/>
+      <frame repeat="1" name="geografia_f_arms_01_80"/>
+      <frame repeat="1" name="geografia_f_arms_01_78"/>
+      <frame repeat="2" name="geografia_f_arms_01_77"/>
+      <frame repeat="86" name="geografia_f_arms_01_0"/>
+    </Part>
+    <Part name="geografia_g_sun_01" posX="0.1026773" posY="0.09053023">
+      <frame repeat="62" name="geografia_g_sun_01_0"/>
+      <frame repeat="1" name="geografia_g_sun_01_62"/>
+      <frame repeat="1" name="geografia_g_sun_01_63"/>
+      <frame repeat="1" name="geografia_g_sun_01_64"/>
+      <frame repeat="111" name="geografia_g_sun_01_65"/>
+      <frame repeat="1" name="geografia_g_sun_01_64"/>
+      <frame repeat="1" name="geografia_g_sun_01_63"/>
+      <frame repeat="1" name="geografia_g_sun_01_62"/>
+      <frame repeat="100" name="geografia_g_sun_01_0"/>
+    </Part>
+    <Part name="geografia_h_nube_01" posX="0.2510854" posY="0.0">
+      <frame repeat="53" name="geografia_h_nube_01_0"/>
+      <frame repeat="2" name="geografia_h_nube_01_53"/>
+      <frame repeat="2" name="geografia_h_nube_01_55"/>
+      <frame repeat="2" name="geografia_h_nube_01_57"/>
+      <frame repeat="2" name="geografia_h_nube_01_59"/>
+      <frame repeat="2" name="geografia_h_nube_01_61"/>
+      <frame repeat="2" name="geografia_h_nube_01_63"/>
+      <frame repeat="109" name="geografia_h_nube_01_65"/>
+      <frame repeat="1" name="geografia_h_nube_01_63"/>
+      <frame repeat="1" name="geografia_h_nube_01_61"/>
+      <frame repeat="1" name="geografia_h_nube_01_59"/>
+      <frame repeat="1" name="geografia_h_nube_01_57"/>
+      <frame repeat="1" name="geografia_h_nube_01_55"/>
+      <frame repeat="1" name="geografia_h_nube_01_53"/>
+      <frame repeat="99" name="geografia_h_nube_01_0"/>
+    </Part>
+  </Animation>
+</Animations>

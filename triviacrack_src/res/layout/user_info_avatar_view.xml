@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/userIcon" layout="@layout/common_user_icon" />
+    <RelativeLayout android:id="@id/userInfo" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/usernameListLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.etermax.tools.widget.CustomFontTextView android:id="@id/username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="Pablo Iacopi" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/UserAvatarUsernameTextTheme" />
+            <com.etermax.tools.widget.CustomFontTextView android:id="@id/usernameAt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="-" android:layout_below="@id/username" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/UserAvatarUsernameTextTheme" />
+        </LinearLayout>
+        <ImageView android:id="@id/flag" android:layout_width="@dimen/user_avatar_flag_width" android:layout_height="@dimen/user_avatar_flag_height" android:layout_marginLeft="1.0dip" android:layout_marginRight="6.0dip" android:layout_below="@id/usernameListLayout" android:layout_alignParentLeft="true" />
+        <com.etermax.tools.widget.CustomFontTextView android:id="@id/distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="28 Km" android:layout_toRightOf="@id/flag" android:layout_below="@id/usernameListLayout" android:layout_alignBottom="@id/flag" style="@style/UserAvatarInfoTextTheme" />
+        <com.etermax.tools.widget.CustomFontTextView android:id="@id/age" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:text="28" android:layout_below="@id/distance" style="@style/UserAvatarInfoTextTheme" />
+        <ImageView android:id="@id/sharedFriendsIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icono_amigos_compartidos" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+        <com.etermax.tools.widget.CustomFontTextView android:id="@id/sharedFriends" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="28" android:layout_toRightOf="@id/sharedFriendsIcon" android:layout_alignParentBottom="true" style="@style/UserAvatarInfoTextTheme" />
+        <View android:id="@id/userStatus" android:background="@drawable/user_avatar_status_disconnected" android:layout_width="@dimen/friends_panel_user_status_size" android:layout_height="@dimen/friends_panel_user_status_size" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <com.etermax.tools.widgetv2.CustomFontButton android:layout_gravity="bottom|center" android:id="@id/inviteButton" android:visibility="gone" android:layout_width="wrap_content" android:text="@string/invite" style="@style/UserAvatarInfoInviteTheme" />
+</merge>

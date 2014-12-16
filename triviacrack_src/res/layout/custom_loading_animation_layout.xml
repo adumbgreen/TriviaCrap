@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/pulltorefresh_custom_loading_size" android:layout_height="@dimen/pulltorefresh_custom_loading_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image_back" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+    <ImageView android:id="@id/image_top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+</RelativeLayout>

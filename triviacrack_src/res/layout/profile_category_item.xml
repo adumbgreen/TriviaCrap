@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/category_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-" android:layout_centerHorizontal="true" style="@style/CategoryItemTitle" />
+    <RelativeLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/category_detail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/category_title">
+        <ImageView android:id="@id/category_icon" android:layout_width="@dimen/profile_category_image_size" android:layout_height="@dimen/profile_category_image_size" android:src="@drawable/character_spin_shop" />
+        <com.etermax.tools.widget.CustomFontTextView android:id="@id/category_percentage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0%" android:layout_toRightOf="@id/category_icon" style="@style/CategoryItemPercentage" />
+        <com.etermax.tools.widget.CustomFontTextView android:id="@id/question_quantity_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/question_plural" android:layout_toRightOf="@id/category_icon" android:layout_below="@id/category_percentage" style="@style/CategoryItemQuantity" />
+        <com.etermax.tools.widget.CustomFontTextView android:id="@id/question_quantity_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="0" android:layout_toRightOf="@id/question_quantity_title" android:layout_below="@id/category_percentage" style="@style/CategoryItemQuantity" />
+    </RelativeLayout>
+    <View android:id="@id/separator_category" android:background="@color/grayLighter" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_below="@id/category_detail" />
+</RelativeLayout>

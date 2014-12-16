@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff061d34" android:layout_width="640.0px" android:layout_height="640.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/game_duel_mode_share_background" android:background="@drawable/share_ranking" android:layout_width="640.0px" android:layout_height="640.0px">
+        <com.etermax.tools.widget.CustomFontTextView android:textSize="64.0px" android:textColor="@color/white" android:gravity="center" android:id="@id/top_weekly_rank_share_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0px" android:text="@string/app_name" style="@style/SecondaryFont" isUppercase="true" />
+        <com.etermax.tools.widget.CustomFontTextView android:textSize="34.0px" android:textColor="@color/white" android:gravity="center" android:id="@id/top_weekly_rank_share_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="110.0px" android:text="@string/weekly_ranking" android:layout_centerHorizontal="true" style="@style/SecondaryFont" />
+        <RelativeLayout android:gravity="center" android:id="@id/top_weekly_rank_share_bodyContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/top_weekly_rank_share_subtitle">
+            <ImageView android:id="@id/top_weekly_rank_share_image" android:paddingBottom="180.0px" android:layout_width="fill_parent" android:layout_height="800.0px" android:src="@drawable/ranking_01" android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/top_weekly_rank_share_profileContent1" android:layout_width="120.0px" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="120.0px" android:layout_height="120.0px">
+                    <include android:id="@id/top_weekly_rank_share_avatar1" android:layout_width="100.0px" android:layout_height="100.0px" android:layout_marginBottom="20.0px" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" layout="@layout/share_common_user_icon_rounded" />
+                    <com.etermax.tools.widget.CustomFontTextView android:background="@drawable/background_circle_duel_mode_position_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="70.0px" android:layout_marginRight="70.0px" android:text="1" android:layout_alignTop="@id/top_weekly_rank_share_avatar1" android:layout_alignRight="@id/top_weekly_rank_share_avatar1" style="@style/DuelModePositionText" />
+                </RelativeLayout>
+                <com.etermax.tools.widget.CustomFontTextView android:layout_gravity="center" android:id="@id/top_weekly_rank_share_userName1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0px" android:text="player 1" android:lines="2" style="@style/DuelModeProfileText" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/top_weekly_rank_share_profileContent2" android:layout_width="120.0px" android:layout_height="wrap_content" android:layout_marginLeft="5.0px">
+                <RelativeLayout android:layout_width="120.0px" android:layout_height="120.0px">
+                    <include android:id="@id/top_weekly_rank_share_avatar2" android:layout_width="100.0px" android:layout_height="100.0px" android:layout_marginBottom="20.0px" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" layout="@layout/share_common_user_icon_rounded" />
+                    <com.etermax.tools.widget.CustomFontTextView android:background="@drawable/background_circle_duel_mode_position_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="70.0px" android:layout_marginRight="70.0px" android:text="2" android:layout_alignTop="@id/top_weekly_rank_share_avatar2" android:layout_alignRight="@id/top_weekly_rank_share_avatar2" style="@style/DuelModePositionText" />
+                </RelativeLayout>
+                <com.etermax.tools.widget.CustomFontTextView android:layout_gravity="center" android:id="@id/top_weekly_rank_share_userName2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0px" android:text="player 2" android:lines="2" style="@style/DuelModeProfileText" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/top_weekly_rank_share_profileContent3" android:layout_width="120.0px" android:layout_height="wrap_content" android:layout_marginLeft="5.0px">
+                <RelativeLayout android:layout_width="120.0px" android:layout_height="120.0px">
+                    <include android:id="@id/top_weekly_rank_share_avatar3" android:layout_width="100.0px" android:layout_height="100.0px" android:layout_marginBottom="20.0px" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" layout="@layout/share_common_user_icon_rounded" />
+                    <com.etermax.tools.widget.CustomFontTextView android:background="@drawable/background_circle_duel_mode_position_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="70.0px" android:layout_marginRight="70.0px" android:text="3" android:layout_alignTop="@id/top_weekly_rank_share_avatar3" android:layout_alignRight="@id/top_weekly_rank_share_avatar3" style="@style/DuelModePositionText" />
+                </RelativeLayout>
+                <com.etermax.tools.widget.CustomFontTextView android:layout_gravity="center" android:id="@id/top_weekly_rank_share_userName3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0px" android:text="player 3" android:lines="2" style="@style/DuelModeProfileText" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/top_weekly_rank_share_profileContent4" android:layout_width="120.0px" android:layout_height="wrap_content" android:layout_marginLeft="5.0px">
+                <RelativeLayout android:layout_width="120.0px" android:layout_height="120.0px">
+                    <include android:id="@id/top_weekly_rank_share_avatar4" android:layout_width="100.0px" android:layout_height="100.0px" android:layout_marginBottom="20.0px" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" layout="@layout/share_common_user_icon_rounded" />
+                    <com.etermax.tools.widget.CustomFontTextView android:background="@drawable/background_circle_duel_mode_position_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="70.0px" android:layout_marginRight="70.0px" android:text="4" android:layout_alignTop="@id/top_weekly_rank_share_avatar4" android:layout_alignRight="@id/top_weekly_rank_share_avatar4" style="@style/DuelModePositionText" />
+                </RelativeLayout>
+                <com.etermax.tools.widget.CustomFontTextView android:layout_gravity="center" android:id="@id/top_weekly_rank_share_userName4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0px" android:text="player 4" android:lines="2" style="@style/DuelModeProfileText" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/top_weekly_rank_share_profileContent5" android:layout_width="120.0px" android:layout_height="wrap_content" android:layout_marginLeft="5.0px">
+                <RelativeLayout android:layout_width="120.0px" android:layout_height="120.0px">
+                    <include android:id="@id/top_weekly_rank_share_avatar5" android:layout_width="100.0px" android:layout_height="100.0px" android:layout_marginBottom="20.0px" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" layout="@layout/share_common_user_icon_rounded" />
+                    <com.etermax.tools.widget.CustomFontTextView android:id="@id/position" android:background="@drawable/background_circle_duel_mode_position_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="70.0px" android:layout_marginRight="70.0px" android:text="5" android:layout_alignTop="@id/top_weekly_rank_share_avatar5" android:layout_alignRight="@id/top_weekly_rank_share_avatar5" style="@style/DuelModePositionText" />
+                </RelativeLayout>
+                <com.etermax.tools.widget.CustomFontTextView android:layout_gravity="center" android:id="@id/top_weekly_rank_share_userName5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0px" android:text="player 5" android:lines="2" style="@style/DuelModeProfileText" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

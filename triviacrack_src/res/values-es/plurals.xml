@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days">
+        <item quantity="other">%1$d días</item>
+        <item quantity="one">1 día</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%1$d horas</item>
+        <item quantity="one">1 hora</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%1$d minutos</item>
+        <item quantity="one">1 minuto</item>
+    </plurals>
+    <plurals name="new_messages">
+        <item quantity="other">%1$d mensajes nuevos</item>
+        <item quantity="one">1 mensaje nuevo</item>
+    </plurals>
+    <plurals name="amount_player">
+        <item quantity="other">%1$d Jugadores</item>
+        <item quantity="one">%1$d Jugador</item>
+    </plurals>
+    <plurals name="characters_limit">
+        <item quantity="other">Debes escribir al menos %1$d caracteres</item>
+        <item quantity="one">Debes escribir al menos 1 caracter.</item>
+    </plurals>
+    <plurals name="coins_pack">
+        <item quantity="other">paquete de %1$d Monedas</item>
+        <item quantity="one">paquete de %1$d Moneda</item>
+    </plurals>
+    <plurals name="lives_pack">
+        <item quantity="other">paquete de %1$d Vidas</item>
+        <item quantity="one">paquete de %1$d Vida</item>
+    </plurals>
+    <plurals name="push_gifting_send_01">
+        <item quantity="other">%1$d días sin ganar. ¡Dale una mano!</item>
+        <item quantity="one">1 día sin ganar. ¡Dale una mano!</item>
+    </plurals>
+    <plurals name="spins_pack">
+        <item quantity="other">paquete de %1$d Tiros</item>
+        <item quantity="one">paquete de %1$d Tiro</item>
+    </plurals>
+    <plurals name="user_common_friend">
+        <item quantity="other">Tienes %1$d amigos en común, entre ellos %2$s y %3$s</item>
+        <item quantity="one">Tienes un amigo en común</item>
+    </plurals>
+    <plurals name="user_favourite">
+        <item quantity="other">%1$s marcó como favorito %2$d %3$s</item>
+        <item quantity="one">%1$s marcó como favorito %2$s</item>
+    </plurals>
+    <plurals name="user_follow_now">
+        <item quantity="other">%1$s sigue ahora a %2$d amigos</item>
+        <item quantity="one">%1$s sigue ahora a %2$s</item>
+    </plurals>
+    <plurals name="user_lost_group_challenge">
+        <item quantity="other">Perdí en el duelo amigos %1$s contra %2$d amigos en Preguntados</item>
+        <item quantity="one">Perdí en el duelo amigos %1$s en Preguntados</item>
+    </plurals>
+    <plurals name="user_lost_worldcup_challenge">
+        <item quantity="other">He perdido en el Duelo Mundial %1$s contra %2$d amigos en Preguntados</item>
+        <item quantity="one">He perdido en el Duelo Mundial %1$s en Preguntados</item>
+    </plurals>
+    <plurals name="user_won_group_challenge">
+        <item quantity="other">¡Gané en el duelo amigos %1$s contra %2$d amigos en Preguntados!</item>
+        <item quantity="one">¡Gané en el duelo amigos %1$s en Preguntados!</item>
+    </plurals>
+    <plurals name="user_won_worldcup_challenge">
+        <item quantity="other">¡He ganado en el Duelo Mundial %1$s contra %2$d amigos en Preguntados!</item>
+        <item quantity="one">¡He ganado en el Duelo Mundial %1$s en Preguntados!</item>
+    </plurals>
+    <plurals name="x_coupons_deal">
+        <item quantity="other">Has ingresado %1$d cupones de la promoción %2$s.</item>
+        <item quantity="one">Has ingresado 1 cupón de la promoción %1$s.</item>
+    </plurals>
+</resources>

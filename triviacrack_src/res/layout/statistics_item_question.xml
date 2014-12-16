@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/StatisticsItemQuestionTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/item_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/StatisticsItemQuestionText" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/item_flag" android:layout_width="@dimen/factory_suggest_flag" android:layout_height="@dimen/factory_suggest_flag" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="right|center" android:id="@id/item_likes_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:id="@id/item_like_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_rate_positivo" />
+            <com.etermax.tools.widget.CustomFontTextView android:id="@id/item_likes" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/StatisticsItemQuestionLikes" />
+            <ImageView android:id="@id/item_dislike_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_rate_negativo" />
+            <com.etermax.tools.widget.CustomFontTextView android:id="@id/item_dislikes" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/StatisticsItemQuestionLikes" />
+        </LinearLayout>
+        <com.etermax.tools.widget.CustomFontTextView android:id="@id/item_language" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/item_likes_container" android:layout_toRightOf="@id/item_flag" android:layout_centerVertical="true" style="@style/StatisticsItemQuestionLanguage" />
+    </RelativeLayout>
+</LinearLayout>

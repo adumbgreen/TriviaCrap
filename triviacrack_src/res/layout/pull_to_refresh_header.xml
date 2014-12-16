@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewSwitcher android:id="@id/pull_to_refresh_progress_switcher" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/PullToRefreshHeader"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/pull_to_refresh_loading_default" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:id="@id/pull_to_refresh_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pull_down_refresh" style="@style/PullToRefreshHeaderTitle" />
+            <TextView android:id="@id/pull_to_refresh_last_updated_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" style="@style/PullToRefreshHeaderUpdatedLabel" />
+        </LinearLayout>
+        <ProgressBar android:id="@id/pull_to_refresh_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="20.0dip" android:indeterminate="true" android:layout_centerVertical="true" style="?android:attr/progressBarStyleSmall" />
+        <ImageView android:id="@id/pull_to_refresh_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="20.0dip" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:id="@id/pull_to_refresh_loading_custom" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/custom_loading_animation_layout" layout="@layout/custom_loading_animation_layout" />
+        <ImageView android:id="@id/pull_to_refresh_image" android:layout_width="@dimen/pulltorefresh_custom_loading_size" android:layout_height="@dimen/pulltorefresh_custom_loading_size" style="@style/PullToRefreshCustomLoadingImage" />
+    </RelativeLayout>
+</ViewSwitcher>

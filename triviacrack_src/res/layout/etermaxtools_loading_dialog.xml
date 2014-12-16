@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/LoadingDialogTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/loading_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/LoadingDialogTextTheme" />
+    <com.etermax.preguntados.ui.widget.PreguntadosLoading android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

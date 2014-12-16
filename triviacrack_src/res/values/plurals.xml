@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days">
+        <item quantity="other">%1$d days</item>
+        <item quantity="one">1 day</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%1$d hours</item>
+        <item quantity="one">1 hour</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%1$d minutes</item>
+        <item quantity="one">1 minute</item>
+    </plurals>
+    <plurals name="new_messages">
+        <item quantity="other">%1$d new messages</item>
+        <item quantity="one">1 new message</item>
+    </plurals>
+    <plurals name="amount_player">
+        <item quantity="other">%1$d Players</item>
+        <item quantity="one">%1$d Player</item>
+    </plurals>
+    <plurals name="characters_limit">
+        <item quantity="other">Write at least %1$d characters.</item>
+        <item quantity="one">Write at least 1 character.</item>
+    </plurals>
+    <plurals name="coins_pack">
+        <item quantity="other">%1$d Coins pack</item>
+        <item quantity="one">%1$d Coin pack</item>
+    </plurals>
+    <plurals name="lives_pack">
+        <item quantity="other">%1$d Lives pack</item>
+        <item quantity="one">%1$d Life pack</item>
+    </plurals>
+    <plurals name="push_gifting_send_01">
+        <item quantity="other">Stuck for %1$d days already. Give a hand?</item>
+        <item quantity="one">Stuck for 1 day already. Give a hand?</item>
+    </plurals>
+    <plurals name="spins_pack">
+        <item quantity="other">%1$d Spins pack</item>
+        <item quantity="one">%1$d Spin pack</item>
+    </plurals>
+    <plurals name="user_common_friend">
+        <item quantity="other">You have %1$d friends in common including %2$s and %3$s</item>
+        <item quantity="one">You have a friend in common</item>
+    </plurals>
+    <plurals name="user_favourite">
+        <item quantity="other">%1$s marked %2$d %3$s as favorite</item>
+        <item quantity="one">%1$s marked %2$s as favorite</item>
+    </plurals>
+    <plurals name="user_follow_now">
+        <item quantity="other">%1$s now follows %2$d friends</item>
+        <item quantity="one">%1$s now follows %2$s</item>
+    </plurals>
+    <plurals name="user_lost_group_challenge">
+        <item quantity="other">I just lost the friends challenge %1$s against %2$d friends in Trivia Crack</item>
+        <item quantity="one">I just lost the friends challenge %1$s in Trivia Crack</item>
+    </plurals>
+    <plurals name="user_lost_worldcup_challenge">
+        <item quantity="other">I just lost the Cup Duel %1$s against %2$d friends in Trivia Crack</item>
+        <item quantity="one">I just lost the Cup Duel %1$s in Trivia Crack</item>
+    </plurals>
+    <plurals name="user_won_group_challenge">
+        <item quantity="other">I just won the friends challenge %1$s against %2$d friends in Trivia Crack!</item>
+        <item quantity="one">I just won the friends challenge %1$s in Trivia Crack!</item>
+    </plurals>
+    <plurals name="user_won_worldcup_challenge">
+        <item quantity="other">I just won the Cup Duel %1$s against %2$d friends in Trivia Crack!</item>
+        <item quantity="one">I just won the Cup Duel %1$s in Trivia Crack!</item>
+    </plurals>
+    <plurals name="x_coupons_deal">
+        <item quantity="other">"You've entered %1$d coupons from %2$s's deal."</item>
+        <item quantity="one">"You've entered 1 coupon from %1$s's deal."</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/DialogTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:emx="http://schemas.android.com/apk/res-auto">
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/main_title_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DialogMainTitleTheme" />
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/title_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DialogTitleTheme" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/common_dialog_vertical_padding">
+        <com.etermax.tools.widgetv2.CustomFontButton android:id="@id/cancel_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_weight="1.0" style="@style/DialogRedButtonTheme" />
+        <com.etermax.tools.widgetv2.CustomFontButton android:id="@id/accept_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/DialogAcceptButtonTheme" />
+    </LinearLayout>
+</LinearLayout>

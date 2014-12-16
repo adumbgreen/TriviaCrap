@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/background_layout" />
+    <include android:id="@id/questions_factory_header" layout="@layout/questions_factory_header_layout" />
+    <RelativeLayout android:layout_height="wrap_content" android:layout_below="@id/questions_factory_header" style="@style/QuestionsFactoryWriteContainer">
+        <com.etermax.tools.widget.CustomFontEditText android:id="@id/rate_question_report_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="150.0dip" android:hint="@string/tap_to_write" style="@style/QuestionsFactoryEditTextTheme" />
+        <com.etermax.tools.widget.CustomFontTextView android:id="@id/rate_question_report_remaining_characters" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/rate_question_report_edit_text" android:layout_alignParentRight="true" style="@style/QuestionsFactoryRemainingCharactersTheme" />
+    </RelativeLayout>
+</RelativeLayout>

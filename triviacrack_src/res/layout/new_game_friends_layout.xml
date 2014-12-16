@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/background_layout" />
+    <include android:id="@id/header" layout="@layout/new_game_header_layout" />
+    <View android:id="@id/navbar_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/header" style="@style/NavbarDividerTheme" />
+    <RadioGroup android:orientation="horizontal" android:id="@id/tabs_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/navbar_divider" style="@style/FindFriendTabContainerTheme">
+        <RadioButton android:id="@id/tab_all_button" android:checked="true" android:button="@null" android:text="@string/all_plural" style="@style/FindFriendLeftRoundedTabButton" />
+        <RadioButton android:id="@id/tab_favorite_button" android:button="@null" android:text="@string/friend_plural" style="@style/FindFriendTabButton" />
+        <RadioButton android:id="@id/tab_facebook_button" android:button="@null" android:text="@string/facebook" style="@style/FindFriendRightRoundedTabButton" />
+    </RadioGroup>
+    <RelativeLayout android:id="@id/search_container" android:layout_below="@id/tabs_container" style="@style/NewGameFriendsSearchContainerTheme">
+        <EditText android:id="@id/search_edit_text" android:singleLine="true" android:layout_centerVertical="true" android:inputType="text" android:imeOptions="actionSearch" style="@style/NewGameFriendsSearchEditTextTheme" />
+        <ImageView android:id="@id/search_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/search_edit_text" style="@style/NewGameFriendsSearchSearchIconTheme" />
+    </RelativeLayout>
+    <ListView android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@null" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0.0dip" android:layout_below="@id/search_container" style="@style/NewGameFriendsListBgTheme" />
+</RelativeLayout>

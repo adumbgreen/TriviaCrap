@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="new_messages">
+        <item quantity="other">%1$d رسائل جديدة</item>
+        <item quantity="one">1 رسالة جديدة</item>
+    </plurals>
+    <plurals name="amount_player">
+        <item quantity="other">%1$d لاعب</item>
+        <item quantity="one">%1$d لاعب</item>
+    </plurals>
+    <plurals name="coins_pack">
+        <item quantity="other">%1$d باقة قطعتان نقديتان</item>
+        <item quantity="one">%1$d باقة قطعة نقدية</item>
+    </plurals>
+    <plurals name="lives_pack">
+        <item quantity="other">%1$d باقة حياة</item>
+        <item quantity="one">%1$d باقة حياة</item>
+    </plurals>
+    <plurals name="spins_pack">
+        <item quantity="other">%1$d باقة دورة</item>
+        <item quantity="one">%1$d باقة دورة</item>
+    </plurals>
+    <plurals name="user_common_friend">
+        <item quantity="other">لديك %1$d أصدقاء مشتركون منهم %2$s و %3$s</item>
+        <item quantity="one">لديكم صديق مشترك</item>
+    </plurals>
+    <plurals name="user_favourite">
+        <item quantity="other">%1$s أضف إلى قائمة%2$d %3$s المفضلين لديهم</item>
+        <item quantity="one">%1$s أضف إلى قائمة %2$sالمفضلين لديه</item>
+    </plurals>
+    <plurals name="user_follow_now">
+        <item quantity="other">%1$s تابع %2$d أصدقاء الآن</item>
+        <item quantity="one">%1$s تابع %2$s الآ</item>
+    </plurals>
+    <plurals name="user_lost_group_challenge">
+        <item quantity="other">لقد خسرت تحدى الأصدقاء %1$sضد %2$dأصدقاء في Trivia Crack</item>
+        <item quantity="one">لقد خسرت تحدى الأصدقاء %1$sفي Trivia Crack</item>
+    </plurals>
+    <plurals name="user_lost_worldcup_challenge">
+        <item quantity="other">لقد خسرت مبارزة الكأس %1$sضد%2$d أصدقاء فى Trivia Crack</item>
+        <item quantity="one">لقد خسرت مبارزة الكأس %1$s في Trivia Crack</item>
+    </plurals>
+    <plurals name="user_won_group_challenge">
+        <item quantity="other">لقد ربحت تحدى الأصدقاء %1$s ضد %2$d الأصدقاء في Trivia Crack!</item>
+        <item quantity="one">لقد ربحت تحدى الأصدقاء %1$sفي Trivia Crack!</item>
+    </plurals>
+    <plurals name="user_won_worldcup_challenge">
+        <item quantity="other">لقد ربحت مبارزة الكأس %1$s ضد %2$d أصدقاء فى Trivia Crack!</item>
+        <item quantity="one">لقد ربحت مبارزة الكأس %1$s فى Trivia Crack!</item>
+    </plurals>
+    <plurals name="x_coupons_deal">
+        <item quantity="other">"You've entered %1$d coupons from %2$s's deal."</item>
+        <item quantity="one">"You've entered 1 coupon from %1$s's deal."</item>
+    </plurals>
+</resources>

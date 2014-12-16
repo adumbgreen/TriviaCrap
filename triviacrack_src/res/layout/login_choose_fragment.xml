@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/LoginChoose"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:emx="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/login_item_gap">
+        <include style="@style/LoginChooseBackgroundLayoutStyle" layout="@layout/background_layout" />
+        <RelativeLayout android:id="@id/logo_container" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/LoginLogoContainer">
+            <ImageView android:id="@id/logo_background" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/LoginLogoBackground" />
+            <ImageView android:id="@id/logo_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignBottom="@id/logo_background" style="@style/LoginLogoTitle" />
+        </RelativeLayout>
+        <com.etermax.tools.widgetv2.CustomFontButton android:layout_gravity="top|right|center" android:id="@id/debug_button" android:padding="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/login_choose_normal_size" android:layout_marginRight="@dimen/login_choose_normal_size" android:text="@string/debug" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/Button.Red" />
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="top|center" android:orientation="vertical" android:id="@id/login_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/login_layout_margin" android:layout_marginRight="@dimen/login_layout_margin" android:layout_below="@id/logo_container" style="@style/LoginChooseFrame">
+            <include layout="@layout/login_choose_logo" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.etermax.tools.widget.CustomFontTextView android:textColor="#ffffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/login_choose_normal_size" android:text="@string/login_start_playing" style="@style/LoginTitle" />
+                <include android:layout_marginTop="@dimen/login_choose_normal_size" layout="@layout/facebook_button" />
+                <com.etermax.tools.widget.CustomFontTextView android:textColor="#ffffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/login_choose_small_size" android:text="@string/facebook_never_post" style="@style/LoginFacebookSubtext" />
+                <com.etermax.tools.widget.CustomFontTextView android:textColor="#ffffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/login_email_title" style="@style/LoginChooseTitle" />
+                <com.etermax.tools.widgetv2.CustomFontButton android:id="@id/email_login_button" android:layout_marginTop="@dimen/login_choose_small_size" android:layout_marginBottom="@dimen/login_choose_small_size" android:text="@string/login_with_email" style="@style/LoginButton" />
+                <com.etermax.tools.widgetv2.CustomFontButton android:id="@id/guest_login_button" android:visibility="gone" android:layout_marginBottom="@dimen/login_choose_normal_size" android:text="@string/login_with_guest" style="@style/LoginButton" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/login_support_margin_bottom" android:layout_below="@id/login_ll">
+            <com.etermax.tools.widget.CustomFontTextView android:textColor="#ffffffff" android:id="@id/support_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/trouble_signin" style="@style/LoginHelp" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

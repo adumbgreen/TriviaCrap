@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/dashboard_promo_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DashboardPromoPopupTheme">
+            <com.etermax.tools.widget.CustomImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/DashboardPromoPopupCloseButton" />
+            <ImageView android:id="@id/dashboard_promo_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dashboard_games_preguntados" android:layout_centerVertical="true" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/dashboard_promo_image" android:layout_centerVertical="true">
+                <com.etermax.tools.widget.CustomFontTextView android:id="@id/dashboard_promo_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PROMO_TITLE" style="@style/DashboardPromoTitle" />
+                <com.etermax.tools.widget.CustomFontTextView android:id="@id/dashboard_promo_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PROMO_DESCRIPTION" style="@style/DashboardPromoText" />
+            </LinearLayout>
+        </RelativeLayout>
+        <FrameLayout android:id="@id/dashboard_promo_close_button" android:padding="@dimen/leftright_padding" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

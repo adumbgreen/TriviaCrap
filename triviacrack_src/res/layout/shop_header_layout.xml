@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/NavBarHeaderTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.etermax.tools.widget.CustomFontTextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/shop" style="@style/ShopHeaderTitle" />
+    <include android:id="@id/shop_back_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" layout="@layout/back_button_layout" />
+    <ImageView android:id="@id/shop_info_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/info_menu" android:layout_alignParentRight="true" style="@style/ShopHeaderInfoButton" />
+</RelativeLayout>

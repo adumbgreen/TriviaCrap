@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bingocrack="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/new_game_flag_image" android:layout_width="@dimen/new_game_flag_width" android:layout_height="@dimen/new_game_flag_height" android:layout_centerHorizontal="true" android:contentDescription="@string/app_name" style="@style/NewGameLanguageFlagTheme" />
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/new_game_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/new_game_flag_image" android:layout_centerHorizontal="true" style="@style/NewGameLanguageTextTheme" />
+    <ImageView android:id="@id/new_game_flag_tick_image" android:layout_width="@dimen/new_game_tick_width" android:layout_height="@dimen/new_game_tick_height" android:layout_marginRight="@dimen/new_game_tick_margin" android:layout_alignParentRight="true" android:contentDescription="@string/app_name" style="@style/NewGameLanguageTickTheme" />
+</RelativeLayout>

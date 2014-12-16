@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DashboardFreeGameItemTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/game_1" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/avatar_user_blocked" style="@style/DashboardFreeGameItemImage" />
+            <com.etermax.tools.widget.CustomFontTextView android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/DashboardFreeGameItemName" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/game_2" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/avatar_user_blocked" style="@style/DashboardFreeGameItemImage" />
+            <com.etermax.tools.widget.CustomFontTextView android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/DashboardFreeGameItemName" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/game_3" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/avatar_user_blocked" style="@style/DashboardFreeGameItemImage" />
+            <com.etermax.tools.widget.CustomFontTextView android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/DashboardFreeGameItemName" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/game_4" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/avatar_user_blocked" style="@style/DashboardFreeGameItemImage" />
+            <com.etermax.tools.widget.CustomFontTextView android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/DashboardFreeGameItemName" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/divider" android:layout_width="wrap_content" android:layout_height="@dimen/dashboard_item_padding" android:layout_alignParentBottom="true" />
+</RelativeLayout>

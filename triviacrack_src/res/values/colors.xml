@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="color" name="common_signin_btn_dark_text_default">@*android:color/white</item>
+    <item type="color" name="common_signin_btn_dark_text_pressed">@*android:color/white</item>
+    <color name="common_signin_btn_dark_text_disabled">#ffaaaaaa</color>
+    <item type="color" name="common_signin_btn_dark_text_focused">@*android:color/white</item>
+    <color name="common_signin_btn_light_text_default">#ff737373</color>
+    <item type="color" name="common_signin_btn_light_text_pressed">@*android:color/white</item>
+    <color name="common_signin_btn_light_text_disabled">#ffaaaaaa</color>
+    <color name="common_signin_btn_light_text_focused">#ff737373</color>
+    <color name="common_signin_btn_default_background">#ffdd4b39</color>
+    <color name="common_action_bar_splitter">#ffd2d2d2</color>
+    <color name="wallet_bright_foreground_holo_dark">#fff3f3f3</color>
+    <color name="wallet_dim_foreground_holo_dark">#ffbebebe</color>
+    <color name="wallet_dim_foreground_disabled_holo_dark">#80bebebe</color>
+    <color name="wallet_dim_foreground_inverse_holo_dark">#ff323232</color>
+    <color name="wallet_dim_foreground_inverse_disabled_holo_dark">#80323232</color>
+    <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="wallet_bright_foreground_holo_light">#ff000000</color>
+    <color name="wallet_hint_foreground_holo_light">#ff808080</color>
+    <color name="wallet_hint_foreground_holo_dark">#ff808080</color>
+    <color name="wallet_highlighted_text_holo_light">#6633b5e5</color>
+    <color name="wallet_highlighted_text_holo_dark">#6633b5e5</color>
+    <color name="wallet_holo_blue_light">#ff33b5e5</color>
+    <color name="wallet_link_text_light">#ff0000ee</color>
+    <color name="aqua">#ff1fbba6</color>
+    <color name="green">#ff17a84b</color>
+    <color name="red">#ffed1c24</color>
+    <color name="pink_dark">#fffa3345</color>
+    <color name="pink">#ffee3c80</color>
+    <color name="orange_dark">#ffff5400</color>
+    <color name="yellow">#fff6c92f</color>
+    <color name="violet">#ff673189</color>
+    <color name="blue">#ff1055b1</color>
+    <color name="white">#ffffffff</color>
+    <color name="grayDarker">#ff1e1e1e</color>
+    <color name="grayDark">#ff383838</color>
+    <color name="gray">#ff646464</color>
+    <color name="grayLight">#ff919191</color>
+    <color name="grayLighter">#ffbbbbbb</color>
+    <color name="grayVeryLight">#ffe9e9e9</color>
+    <color name="tabMessagesUnreadColor">#ff1fbba6</color>
+    <color name="tabMessagesReadColor">#ffbbbbbb</color>
+    <color name="abc_search_url_text_normal">#ff7fa87f</color>
+    <item type="color" name="abc_search_url_text_selected">@*android:color/black</item>
+    <item type="color" name="abc_search_url_text_pressed">@*android:color/black</item>
+    <color name="com_facebook_picker_search_bar_background">#fff5f5f7</color>
+    <color name="com_facebook_picker_search_bar_text">#ffbcbdc2</color>
+    <color name="com_facebook_blue">#ff3b5998</color>
+    <color name="com_facebook_usersettingsfragment_connected_text_color">#ffffffff</color>
+    <color name="com_facebook_usersettingsfragment_connected_shadow_color">#ff000000</color>
+    <color name="com_facebook_usersettingsfragment_not_connected_text_color">#ffa6aed7</color>
+    <color name="com_facebook_loginview_text_color">#ffffffff</color>
+    <color name="default_circle_indicator_fill_color">#ffffffff</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#ffdddddd</color>
+    <color name="dashboard_avatar_waiting">#ffc5cde0</color>
+    <color name="game_option_label_active">#ff212121</color>
+    <color name="game_option_label_inactive">#77212121</color>
+    <color name="whiteDark">#ffeeeeee</color>
+    <color name="dark_gray">#ff505050</color>
+    <color name="black">#ff000000</color>
+    <color name="grayLightest">#ffe8e8e8</color>
+    <color name="gray_blue">#ffd7dfe2</color>
+    <color name="blue_electric_light">#ff71a9ee</color>
+    <color name="chat_button_text_color_disabled">#66ffffff</color>
+    <item type="color" name="chat_button_text_color_enabled">@color/white</item>
+    <color name="daily_bonus_today_reward">#ffffb311</color>
+    <color name="chat_separator_line">#ffd3d5d8</color>
+    <color name="chat_event_background_start">#ffdbdfe6</color>
+    <color name="chat_event_background_end">#ffe5e8ed</color>
+    <color name="blue_electric">#ff2160b3</color>
+    <color name="grayBlue_darkest">#ff272b33</color>
+    <color name="redLighter">#fffd3e35</color>
+    <color name="redElectric">#ffed1c24</color>
+    <color name="orange">#ffff6c00</color>
+    <color name="grayMedium">#ff404040</color>
+    <color name="navigation_panel_item_divider_top">#ff383c43</color>
+    <color name="navigation_panel_item_divider_bottom">#ff161b23</color>
+    <color name="navigation_panel_background">#ff1e2127</color>
+    <color name="navigation_panel_item_selected">#ff323943</color>
+    <color name="navigation_panel_section_text">#ffcccccc</color>
+    <color name="friends_panel_search_text">#ff4a515e</color>
+    <color name="friends_panel_last_message">#ff8c929c</color>
+    <color name="friends_panel_section_text">#ffdaebf8</color>
+    <color name="friends_panel_section_divider_top">#ff2f3237</color>
+    <color name="friends_panel_section_divider_bottom">#ff0f1014</color>
+    <color name="user_disconnected">#ff1e2128</color>
+    <color name="user_connected">#ff82bd3d</color>
+    <color name="user_idle">#fffd6a1c</color>
+    <color name="user_connected_border">#ff00c73c</color>
+    <item type="color" name="achievement_icon_disabled">@color/grayVeryLight</item>
+    <color name="darker_gray">#ff212121</color>
+    <color name="transparent">#00000000</color>
+    <color name="blackAlphaLight">#50000000</color>
+    <color name="blackAlphaMedium">#be000000</color>
+    <color name="blackAlpha">#d9000000</color>
+    <color name="chargesBackground">#ff191a1d</color>
+    <color name="grayDarkAlpha">#7d383838</color>
+    <color name="grayChat">#fff5f5f5</color>
+    <color name="aqua_dark">#ff189786</color>
+    <color name="brown">#ff754a1c</color>
+    <color name="brownLight">#ff9b9275</color>
+    <color name="petroleum">#ff3f454e</color>
+    <color name="blue_fb">#ff4274b9</color>
+    <color name="blueDarker">#ff2f558d</color>
+    <color name="blueDark">#ff008fa4</color>
+    <color name="blueLight">#ff00c0ff</color>
+    <color name="greenDark">#ff5fa235</color>
+    <color name="greenDarker">#ff128434</color>
+    <color name="greenLight">#ff73bf43</color>
+    <color name="redDark">#ffb32923</color>
+    <color name="redLight">#ffee3e36</color>
+    <color name="orangeDark">#ffb75f01</color>
+    <color name="orangeLight">#ffff8400</color>
+    <color name="yellow_crown">#ffffab00</color>
+    <color name="brownDark">#ff7f775e</color>
+    <color name="violetDark">#ff6637d5</color>
+    <color name="violetLight">#ff7646e6</color>
+    <color name="grana">#fff21f43</color>
+    <color name="granaDark">#ffa30f28</color>
+    <color name="suggested_section">#ff4274b9</color>
+    <color name="your_turn_section">#ff73bf43</color>
+    <color name="pending_aproval_section">#ff00c0ff</color>
+    <color name="their_turn_section">#ffff8400</color>
+    <color name="endend_section">#ffee3e36</color>
+    <color name="more_free_games_section">#ff1fbba6</color>
+    <color name="default_section">#ffff8400</color>
+    <color name="power_up_button">#ffe5e5e5</color>
+    <item type="color" name="power_up_button_disabled">@color/grayLighter</item>
+    <item type="color" name="dashboard_status_title">@color/red</item>
+    <item type="color" name="dashboard_item_selector">@color/aqua_dark</item>
+    <item type="color" name="promo_dashboard_background">@color/redLight</item>
+    <color name="duel_blue">#ff162242</color>
+    <color name="category_01">#ff73bf43</color>
+    <color name="category_02">#ff1055b1</color>
+    <color name="category_03">#fff6c92f</color>
+    <color name="category_04">#ffee3c80</color>
+    <color name="category_05">#ffff8400</color>
+    <color name="category_06">#ffee3e36</color>
+    <color name="crown_color">#ff673189</color>
+    <color name="challenge_color">#ff1fbba6</color>
+    <color name="statistics_yellow">#fffaa61a</color>
+    <color name="statistics_yellow_dark">#ffd28b14</color>
+    <item type="color" name="power_up_double_chance_text_view">@color/aqua</item>
+    <color name="section_challenges">#ff1fbba6</color>
+    <item type="color" name="send_gift_spin">@color/aqua</item>
+    <item type="color" name="send_gift_life">@color/pink</item>
+    <item type="color" name="crown_header">@color/violetLight</item>
+    <item type="color" name="challenge_header">@color/aqua</item>
+    <item type="color" name="category_header_color">@color/aqua</item>
+    <item type="color" name="progress_bar_background_undone">@color/redDark</item>
+    <item type="color" name="progress_bar_undonde">@color/redLight</item>
+    <item type="color" name="progress_bar_background_done">@color/greenDark</item>
+    <item type="color" name="progress_bar_donde">@color/greenLight</item>
+    <color name="question_progress_bar">#50000000</color>
+    <item type="color" name="rankings_tab_background">@color/grayVeryLight</item>
+    <item type="color" name="rankings_tab_indicator">@color/aqua</item>
+    <item type="color" name="rankings_tab_divider">@color/grayLighter</item>
+    <item type="color" name="rankings_player_background">@color/aqua</item>
+    <item type="color" name="rankings_section">@color/grana</item>
+    <item type="color" name="new_duel_list_section">@color/grana</item>
+    <item type="color" name="new_duel_list_continue">@color/aqua</item>
+    <item type="color" name="duel_list_score">@color/grayLight</item>
+    <item type="color" name="tip_bomb">@color/red</item>
+    <item type="color" name="tip_time">@color/blue_fb</item>
+    <item type="color" name="tip_double">@color/aqua</item>
+    <item type="color" name="tip_pass">@color/violetLight</item>
+    <color name="power_up_seperator">#ff919191</color>
+</resources>

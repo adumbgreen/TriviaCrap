@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/background_layout" />
+    <include android:id="@id/questions_factory_header" layout="@layout/questions_factory_header_layout" />
+    <View android:id="@id/navbar_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/questions_factory_header" style="@style/NavbarDividerTheme" />
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/statistics_questions_list_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/suggested_in_rate" android:layout_below="@id/navbar_divider" style="@style/StatisticsQuestionListSubtitle" />
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/statistics_questions_list_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/statistics_questions_list_title" style="@style/StatisticsSubtitleDescriptionTheme" />
+    <ListView android:id="@id/statistics_questions_list_view" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/statistics_questions_list_subtitle" />
+</RelativeLayout>

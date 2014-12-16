@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/background_layout" />
+    <include android:id="@id/login_header" layout="@layout/login_header_with_button" />
+    <View android:id="@id/navbar_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/login_header" style="@style/NavbarDividerTheme" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/login_layout_padding" android:paddingRight="@dimen/login_layout_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/navbar_divider" style="@style/LoginEmail">
+        <com.etermax.tools.widget.CustomFontTextView android:textSize="@dimen/font_large" android:textStyle="bold" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/login_title_margin_top" android:text="@string/type_email" style="@style/LoginAskEmailTitle" />
+        <com.etermax.tools.widget.CustomFontEditText android:id="@id/email_edit_text" android:layout_marginTop="@dimen/login_item_gap" android:hint="@string/email" android:inputType="textEmailAddress" android:imeOptions="actionSend" style="@style/LoginEmailEditTextStyle" />
+        <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/login_item_gap" android:text="@string/no_account" style="@style/LoginEmailNoAccount" />
+    </LinearLayout>
+</RelativeLayout>

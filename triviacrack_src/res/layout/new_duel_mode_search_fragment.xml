@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/background_layout" />
+    <RelativeLayout android:id="@id/new_duel_mode_header" style="@style/NewDuelModeHeaderTheme">
+        <com.etermax.tools.widget.CustomFontTextView android:id="@id/new_duel_header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/NewDuelModeHeaderTextViewTheme" />
+        <com.etermax.tools.widget.CustomFontTextView android:id="@id/new_duel_mode_header_next_button" android:background="@drawable/header_buttons_selector" android:paddingLeft="@dimen/leftright_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/ok" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/NewDuelModeHeaderButtonTheme" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/new_duel_mode_header">
+        <RelativeLayout android:background="@drawable/background_white_rounded" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/leftright_padding" android:layout_marginTop="@dimen/topbottom_padding" android:layout_marginRight="@dimen/leftright_padding" android:layout_marginBottom="@dimen/topbottom_padding">
+            <com.etermax.tools.widget.CustomFontAutoCompleteTextView android:id="@id/new_duel_mode_search_edittext" android:paddingRight="50.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" style="@style/NewDuelModeSearchBoxTheme" />
+            <ImageView android:id="@id/new_duel_mode_search_clear_button" android:padding="@dimen/leftright_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/close_translate" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <ListView android:id="@id/new_duel_mode_search_listview" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NewDuelModeListViewTheme" />
+    </LinearLayout>
+</RelativeLayout>

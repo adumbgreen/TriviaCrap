@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/player_info_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:weightSum="2.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/user_1_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/category_player_container_leftright_padding" android:layout_marginTop="6.0dip" android:layout_marginRight="3.0dip" android:layout_weight="1.0" layout="@layout/game_category_player_one_layout" />
+    <include android:id="@id/user_2_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="@dimen/category_player_container_leftright_padding" android:layout_weight="1.0" layout="@layout/game_category_player_two_layout" />
+</LinearLayout>

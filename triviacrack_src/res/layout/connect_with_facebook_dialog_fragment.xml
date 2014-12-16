@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/connect_with_facebook_dialog_head_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gifting_dialogs_head_image_margin_bottom" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/connect_with_facebook_dialog_head_image">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/popup_inbox_dialog_margin" android:layout_marginTop="@dimen/popup_inbox_dialog_margin_top" android:layout_marginRight="@dimen/popup_inbox_dialog_margin" android:layout_centerInParent="true" style="@style/PopupTheme">
+            <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:layout_gravity="center" android:id="@id/connect_with_facebook_dialog_title" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:text="@string/link_your_account" style="@style/PopupTitleTheme" />
+            <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:layout_gravity="center" android:id="@id/connect_with_facebook_dialog_description" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="12.0dip" android:text="@string/link_facebook_description" android:layout_alignParentTop="true" style="@style/PopupContentTheme" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                <include layout="@layout/facebook_button" />
+            </RelativeLayout>
+        </LinearLayout>
+        <com.etermax.tools.widgetv2.CustomLinearButton android:id="@id/connect_with_facebook_dialog_close_button" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_margin="@dimen/leftright_padding" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/RedButtonCloseTheme">
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" style="@style/PopupCloseButtonTheme" />
+        </com.etermax.tools.widgetv2.CustomLinearButton>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ModalTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.etermax.tools.widget.CustomLinearButton android:id="@id/dashboard_accept_game_close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/leftright_padding" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/RedButtonCloseTheme">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_close" android:scaleType="centerInside" />
+    </com.etermax.tools.widget.CustomLinearButton>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/dashboard_accept_game_close_button">
+        <com.etermax.tools.widget.CustomFontTextView android:id="@id/dashboard_accept_game_title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DashboardAcceptGameTitleTheme" />
+        <com.etermax.tools.widget.CustomFontTextView android:id="@id/dashboard_accept_game_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DashboardAcceptGameSubTitleTheme" />
+        <ImageView android:id="@id/dashboard_accept_game_image" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="centerInside" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/dashboard_accept_game_buttons_container" android:paddingLeft="@dimen/leftright_padding" android:paddingRight="@dimen/leftright_padding" android:paddingBottom="@dimen/tablet_padding_bot" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="3.0">
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.etermax.tools.widget.CustomFontButton android:id="@id/dashboard_accept_game_reject_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/reject" style="@style/DashboardAcceptGameRejectButton" />
+            </FrameLayout>
+            <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.etermax.tools.widget.CustomFontButton android:id="@id/dashboard_accept_game_play_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/play" style="@style/DashboardAcceptGamePlayButton" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
