@@ -5,6 +5,8 @@ Includes:
 * Unlimited time
 * Answer revealer
 
+After installation, tap any power up to reveal the correct answer. 
+
 ##Installation
 
 This project is created using [Theos](). 
