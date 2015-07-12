@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/questions_factory_header_container" style="@style/QuestionsFactoryHeaderTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/questions_factory_header_image" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/QuestionsFactoryHeaderImage" />
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/questions_factory_header_title" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/QuestionsFactoryHeaderTitle" />
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/questions_factory_ok_button" android:background="@drawable/header_buttons_selector" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/ok" android:layout_alignParentRight="true" style="@style/QuestionsFactoryOkButton" />
+    <ImageView android:id="@id/question_factory_header_share_image" android:background="@drawable/header_buttons_selector" android:paddingLeft="@dimen/leftright_padding" android:paddingRight="@dimen/leftright_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/icon_share" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

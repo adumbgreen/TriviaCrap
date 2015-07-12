@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/LoginHeaderTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.etermax.tools.widget.CustomFontTextView style="@style/LoginHeaderTitleTheme" />
+    <com.etermax.tools.widgetv2.CustomFontButton android:id="@id/header_send_button" android:layout_margin="@dimen/login_header_next_button_margin" android:layout_alignParentRight="true" style="@style/LoginHeaderNextButtonTheme" />
+</RelativeLayout>

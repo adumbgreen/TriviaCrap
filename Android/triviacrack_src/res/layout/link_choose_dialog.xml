@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/DialogTheme">
+        <com.etermax.tools.widget.CustomFontTextView android:id="@id/title_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DialogTitleTheme" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/common_dialog_vertical_padding">
+            <com.etermax.tools.widgetv2.CustomFontButton android:id="@id/accept_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" style="@style/DialogAcceptButtonTheme" />
+            <com.etermax.tools.widgetv2.CustomFontButton android:id="@id/cancel_button" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DialogCancelButtonTheme" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

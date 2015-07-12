@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TriviaCrack Cheat</string>
+
+    <string name="activity_settings_label">Trivia Crack Cheat Settings</string>
+
+    <!-- Preferences -->
+    <string name="pref_category_cheats">Cheats</string>
+
+    <string name="pref_enable_answer">Enable answer cheat</string>
+    <string name="pref_enable_answer_summary">Tells you which choice is correct</string>
+
+    <string name="pref_enable_powerup">Enable free power-ups</string>
+    <string name="pref_enable_powerup_summary">Makes power-ups free</string>
+
+    <string name="pref_enable_bomb">Enable super-bomb</string>
+    <string name="pref_enable_bomb_summary">Makes the bomb power-up eliminate all wrong answers</string>
+
+    <string name="pref_enable_timer">Freeze timer</string>
+    <string name="pref_enable_timer_summary">Freezes the timer when answering questions</string>
+
+    <string name="pref_enable_freebies">Enable free power-ups</string>
+    <string name="pref_enable_freebies_summary">Makes all power-ups free (0 gold)</string>
+</resources>

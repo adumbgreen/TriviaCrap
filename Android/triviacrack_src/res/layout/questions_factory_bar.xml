@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="100.0" android:layout_alignParentBottom="true" style="@style/QuestionsFactoryBarTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.etermax.tools.widget.CustomFontTextView android:gravity="left|center" android:id="@id/questions_factory_bar_category_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="40.0" style="@style/QuestionsFactoryBarText" />
+    <View android:background="@color/gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/questions_factory_bar_country_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="20.0" style="@style/QuestionsFactoryBarImage" />
+    <View android:background="@color/gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <com.etermax.tools.widget.CustomFontTextView android:gravity="right|center" android:id="@id/questions_factory_bar_language_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="40.0" style="@style/QuestionsFactoryBarText" />
+</LinearLayout>

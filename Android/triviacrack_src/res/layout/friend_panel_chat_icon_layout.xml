@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="right" android:layout_gravity="right" android:layout_width="90.0dip" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/container" android:layout_width="60.0dip" android:layout_height="60.0dip">
+        <ImageView android:id="@id/image_icon_friend" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_friend_panel" android:layout_centerInParent="true" />
+        <RelativeLayout android:id="@id/badge_container" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true">
+            <TextView android:textSize="11.0dip" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/actionbar_notifcation_textview" android:background="@drawable/bubble_icon" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

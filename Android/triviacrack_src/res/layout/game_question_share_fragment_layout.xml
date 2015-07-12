@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/game_question_share" android:layout_width="640.0px" android:layout_height="640.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/game_question_share_header" android:layout_width="fill_parent" android:layout_height="60.0px" android:layout_marginTop="1.0px" android:layout_alignParentTop="true">
+        <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/game_question_share_category_icon" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:maxWidth="60.0px" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.etermax.tools.widget.CustomFontTextView android:id="@id/game_question_share_tittle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" style="@style/QuestionShareTitle" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.etermax.tools.widget.CustomFontTextView android:layout_gravity="center_horizontal" android:id="@id/game_question_share_suggest" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0px" android:text="@string/question_pending_aproval" style="@style/QuestionShareSuggest" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/game_question_share_question_content" android:background="@drawable/background_white_rounded" android:layout_width="fill_parent" android:layout_height="200.0px" android:layout_marginLeft="15.0px" android:layout_marginRight="15.0px">
+        <LinearLayout android:gravity="center" android:id="@id/game_question_share_question_text_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0px" android:layout_marginRight="15.0px">
+            <com.etermax.tools.widget.CustomFontTextView android:id="@id/game_question_share_question_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/QuestionShareTextStyle" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/game_question_share_image_content" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/game_question_share_image_question" android:layout_width="150.0px" android:layout_height="150.0px" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/game_question_share_answer1_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0px" android:layout_marginTop="15.0px" android:layout_marginRight="15.0px">
+        <com.etermax.tools.widget.CustomFontButton android:id="@id/game_question_share_answer1" style="@style/AnswerButtonShareStyle" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/game_question_share_answer2_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0px" android:layout_marginTop="15.0px" android:layout_marginRight="15.0px">
+        <com.etermax.tools.widget.CustomFontButton android:id="@id/game_question_share_answer2" style="@style/AnswerButtonShareStyle" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/game_question_share_answer3_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0px" android:layout_marginTop="15.0px" android:layout_marginRight="15.0px">
+        <com.etermax.tools.widget.CustomFontButton android:id="@id/game_question_share_answer3" style="@style/AnswerButtonShareStyle" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/game_question_share_answer4_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0px" android:layout_marginTop="15.0px" android:layout_marginRight="15.0px">
+        <com.etermax.tools.widget.CustomFontButton android:id="@id/game_question_share_answer4" style="@style/AnswerButtonShareStyle" />
+    </RelativeLayout>
+</LinearLayout>

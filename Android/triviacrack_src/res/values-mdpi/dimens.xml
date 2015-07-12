@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gifting_dialog_listview_height">200.0dip</dimen>
+    <dimen name="player_item_icon_size">50.0dip</dimen>
+    <dimen name="facebook_avatar_button_width">48.0dip</dimen>
+    <dimen name="facebook_avatar_button_height">28.0dip</dimen>
+    <dimen name="profile_buttons_text_size">10.0sp</dimen>
+    <dimen name="new_game_flag_height">40.0dip</dimen>
+    <dimen name="new_game_flag_width">100.0dip</dimen>
+    <dimen name="new_game_tick_height">30.0dip</dimen>
+    <dimen name="new_game_tick_width">30.0dip</dimen>
+    <dimen name="new_game_tick_margin">4.0dip</dimen>
+    <dimen name="banner_pro_text_size">19.0sp</dimen>
+    <dimen name="banner_pro_text_right_margin">15.0dip</dimen>
+    <dimen name="game_end_name_padding_top">10.0dip</dimen>
+    <dimen name="game_end_name_padding">10.0dip</dimen>
+    <dimen name="tip_margin_top">20.0dip</dimen>
+    <dimen name="tip_margin_bot">20.0dip</dimen>
+    <dimen name="factory_translate_flag">50.0dip</dimen>
+    <dimen name="factory_rate_title_margin">50.0dip</dimen>
+    <dimen name="factory_rate_image_margin">40.0dip</dimen>
+    <dimen name="factory_suggest_title_margin">40.0dip</dimen>
+    <dimen name="without_coins_margin">30.0dip</dimen>
+    <dimen name="question_container_margin_top">3.0dip</dimen>
+    <dimen name="com_facebook_picker_divider_width">1.0px</dimen>
+    <dimen name="tutorial_powerups_text_title">34.0sp</dimen>
+    <dimen name="tutorial_powerups_text_subtitle">15.0sp</dimen>
+    <dimen name="tutorial_powerups_text_description">15.0sp</dimen>
+    <dimen name="question_answers_padding_bottom">2.0dip</dimen>
+</resources>

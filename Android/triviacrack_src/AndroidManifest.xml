@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="55" android:versionName="1.9.3" android:installLocation="auto" package="com.etermax.preguntados.lite"
+  xmlns:amazon="http://schemas.amazon.com/apk/res/android"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <permission android:name="com.etermax.preguntados.lite.permission.RECEIVE_ADM_MESSAGE" android:protectionLevel="signature" />
+    <uses-permission android:name="com.etermax.preguntados.lite.permission.RECEIVE_ADM_MESSAGE" />
+    <uses-permission android:name="com.amazon.device.messaging.permission.RECEIVE" />
+    <permission android:name="com.etermax.preguntados.lite.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+    <uses-permission android:name="com.etermax.preguntados.lite.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application android:theme="@*android:style/Theme.Light.NoTitleBar" android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:name="com.etermax.preguntados.lite.PreguntadosApplication_" android:allowBackup="true" android:largeHeap="true">
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.etermax.preguntados.ui.SplashActivity_" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:label="@string/app_name" android:name="com.facebook.LoginActivity" />
+        <activity android:name="com.etermax.preguntados.ui.coupon.CouponActivity_" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.etermax.gamescommon.login.ui.LoginActivity_" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.preguntados.ui.dashboard.DashboardActivity_" android:launchMode="singleTop" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.etermax.preguntados.ui.newgame.NewGameActivity_" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.preguntados.ui.newgame.duelmode.NewDuelModeActivity_" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.preguntados.ui.game.category.CategoryActivity_" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.preguntados.ui.game.duelmode.DuelModeActivity_" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.preguntados.ui.game.duelmode.DuelModeResultsActivity_" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.preguntados.ui.game.question.crown.QuestionCrownActivity_" android:launchMode="singleTop" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.preguntados.ui.game.question.normal.QuestionNormalActivity_" android:launchMode="singleTop" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.preguntados.ui.game.question.duel.QuestionDuelActivity_" android:launchMode="singleTop" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.preguntados.ui.settings.SettingsActivity_" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.preguntados.ui.settings.AccountActivity_" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.preguntados.ui.help.HelpActivity_" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.preguntados.ui.shop.ShopActivity_" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.preguntados.ui.shop.ShopInfoActivity_" android:screenOrientation="portrait" />
+        <activity android:theme="@style/TvShowRegistrationTheme" android:name="com.etermax.preguntados.ui.tvshow.TvShowQuestionActivity_" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.preguntados.ui.questionsfactory.QuestionsFactoryActivity_" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.preguntados.ui.questionsfactory.suggestquestion.SuggestQuestionActivity_" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.preguntados.ui.questionsfactory.ratequestion.RateQuestionActivity_" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.preguntados.ui.questionsfactory.ratequestion.report.ReportQuestionActivity_" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.preguntados.ui.questionsfactory.statistics.StatisticsActivity_" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.preguntados.ui.questionsfactory.statistics.questionsstate.SuggestedQuestionsStatsActivity_" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.preguntados.ui.questionsfactory.statistics.questionsstate.TranslatedQuestionsStatsActivity_" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.preguntados.ui.questionsfactory.translatequestion.TranslateQuestionActivity_" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.preguntados.ui.profile.ProfileActivity_" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.preguntados.ui.profile.ProfileBlockedUsersActivity_" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.preguntados.ui.profile.ProfileFriendsActivity_" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.preguntados.ui.rankings.RankingsActivity_" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.preguntados.ui.achievements.AchievementsActivity_" android:screenOrientation="portrait" />
+        <activity android:name="com.etermax.tools.social.twitter.TwitterLoginActivity_" android:launchMode="singleTop" android:screenOrientation="portrait" android:configChanges="orientation" />
+        <activity android:name="com.etermax.tools.bugcatcher.CrashActivity" android:launchMode="standard" android:screenOrientation="portrait" android:configChanges="orientation" />
+        <activity android:theme="@style/Theme.Chat" android:label="@string/app_name" android:icon="@drawable/icono_nav_back_blanco" android:name="com.etermax.preguntados.ui.chat.ChatActivity_" android:exported="true" android:configChanges="orientation" android:logo="@drawable/icono_nav_back_blanco" />
+        <service android:name="com.etermax.gamescommon.notification.ChatNotificationCleanningService_" />
+        <service android:name="com.etermax.preguntados.notification.services.CommonNotificationActionService_" />
+        <service android:name="com.etermax.gamescommon.notification.gcm.GCMIntentService" />
+        <receiver android:name="com.etermax.gamescommon.notification.gcm.EtermaxGCMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="com.etermax.preguntados.lite" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.etermax.preguntados.notification.PreguntadosNotificationReceiver_" android:exported="false">
+            <intent-filter>
+                <action android:name="com.etermax.DISPLAY_MESSAGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.amazon.inapp.purchasing.ResponseReceiver">
+            <intent-filter>
+                <action android:name="com.amazon.inapp.purchasing.NOTIFY" android:permission="com.amazon.inapp.purchasing.Permission.NOTIFY" />
+            </intent-filter>
+        </receiver>
+        <amazon:enable-feature android:name="com.amazon.device.messaging" android:required="false" />
+        <service android:name="com.etermax.gamescommon.notification.adm.ADMMessageHandler" android:exported="false" />
+        <receiver android:name="com.etermax.gamescommon.notification.adm.ADMMessageHandler$MessageAlertReceiver" android:permission="com.amazon.device.messaging.permission.SEND">
+            <intent-filter>
+                <action android:name="com.amazon.device.messaging.intent.REGISTRATION" />
+                <action android:name="com.amazon.device.messaging.intent.RECEIVE" />
+                <category android:name="com.etermax.preguntados.lite" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.mobileapptracker.Tracker" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.etermax.gamescommon.login.accountmanager.shared.AccountToastActivity" android:screenOrientation="portrait" />
+        <service android:name="com.etermax.gamescommon.login.accountmanager.shared.AccountAuthenticatorService" android:exported="false" android:process=":auth_service">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator" />
+        </service>
+        <activity android:name="com.amazon.device.ads.AdActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode" />
+        <activity android:name="com.mobfox.sdk.InAppWebView" />
+        <activity android:name="com.adsdk.sdk.banner.InAppWebView" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode" />
+        <activity android:name="com.adsdk.sdk.mraid.MraidActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode" />
+        <activity android:name="com.adsdk.sdk.video.RichMediaActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode" android:hardwareAccelerated="false" />
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.appflood.AFFullScreenActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation" />
+        <service android:name="org.openudid.OpenUDID_service">
+            <intent-filter>
+                <action android:name="org.openudid.GETUDID" />
+            </intent-filter>
+        </service>
+        <activity android:name="com.lifestreet.android.lsmsdk.ads.InterstitialAdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode" />
+        <activity android:name="com.lifestreet.android.lsmsdk.mraid.MRAIDActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode" />
+        <activity android:name="com.lifestreet.android.lsmsdk.mraid.MRAIDInterstitialActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode" />
+        <activity android:name="com.mdotm.android.view.MdotMActivity" android:launchMode="singleTop" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.mdotm.android.vast.VastInterstitialActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.millennialmedia.android.MMActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name="com.millennialmedia.android.VideoPlayer" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <service android:name="com.vungle.sdk.VungleIntentService" />
+        <activity android:name="com.mopub.mobileads.MoPubActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.mopub.mobileads.MraidActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.mopub.common.MoPubBrowser" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.mopub.mobileads.MraidVideoPlayerActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.inmobi.androidsdk.IMBrowserActivity" android:configChanges="keyboard|keyboardHidden|orientation" android:hardwareAccelerated="true" />
+        <activity android:name="com.facebook.ads.InterstitialAdActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.admarvel.android.ads.AdMarvelActivity" android:configChanges="keyboard|keyboardHidden|orientation" android:hardwareAccelerated="true" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.admarvel.android.ads.AdMarvelVideoActivity" android:configChanges="keyboard|keyboardHidden|orientation" android:hardwareAccelerated="true" />
+        <provider android:name="com.admarvel.android.ads.AdMarvelLocalFileContentProvider" android:authorities="com.etermax.preguntados.lite.AdMarvelLocalFileContentProvider" />
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    </application>
+</manifest>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" style="@style/AchievementItemTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/achievement_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" style="@style/AchievementIcon" />
+    <LinearLayout android:orientation="vertical" android:id="@id/title_description_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/achievement_rewards_requirement" android:layout_toRightOf="@id/achievement_icon" android:layout_centerVertical="true">
+        <com.etermax.tools.widget.CustomFontTextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/AchievementTitle" />
+        <com.etermax.tools.widget.CustomFontTextView android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/AchievementDescription" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/achievement_rewards_requirement" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.etermax.tools.widget.CustomFontTextView android:id="@id/completed_percentage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="%" style="@style/AchievementCompletedPercentage" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:minWidth="45.0dip" style="@style/AchievementRewardTheme">
+            <ImageView android:id="@id/coin" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/AchievementRewardCoin" />
+            <com.etermax.tools.widget.CustomFontTextView android:id="@id/reward_coins" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/AchievementRewardValue" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/tilt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/AchievementTilt" />
+</RelativeLayout>

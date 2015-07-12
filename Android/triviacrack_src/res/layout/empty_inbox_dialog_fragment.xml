@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/empty_inbox_dialog_head_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gifting_dialogs_head_image_margin_bottom" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/empty_inbox_dialog_head_image">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/popup_inbox_dialog_margin" android:layout_marginTop="@dimen/popup_inbox_dialog_margin_top" android:layout_marginRight="@dimen/popup_inbox_dialog_margin" android:layout_centerInParent="true" style="@style/PopupTheme">
+            <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:layout_gravity="center" android:id="@id/empty_inbox_dialog_title" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/empty_inbox_dialog_title_margin" android:layout_marginBottom="@dimen/empty_inbox_dialog_title_margin" android:text="@string/no_messages" style="@style/PopupTitleTheme" />
+            <include android:gravity="center" android:layout_gravity="center" android:id="@id/friends_grid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_weight="1.0" layout="@layout/friends_grid_fragment" />
+            <include android:gravity="center" android:layout_gravity="center" android:id="@id/friends_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/empty_inbox_dialog_fragment_buttons" />
+        </LinearLayout>
+        <com.etermax.tools.widget.CustomLinearButton android:id="@id/empty_inbox_dialog_close_button" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_margin="@dimen/leftright_padding" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/RedButtonCloseTheme">
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" style="@style/PopupCloseButtonTheme" />
+        </com.etermax.tools.widget.CustomLinearButton>
+    </RelativeLayout>
+</RelativeLayout>

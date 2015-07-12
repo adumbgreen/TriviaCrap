@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="language_selector_selection_rect_padding_left">-7.0dip</dimen>
+    <dimen name="duel_mode_result_score_width">115.0dip</dimen>
+    <dimen name="duel_mode_result_score_text">13.0dip</dimen>
+</resources>

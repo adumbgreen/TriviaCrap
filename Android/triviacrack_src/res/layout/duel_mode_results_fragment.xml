@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/background_layout" />
+    <RelativeLayout android:id="@id/duel_mode_results_header" style="@style/NewDuelModeHeaderTheme">
+        <com.etermax.tools.widget.CustomFontTextView android:id="@id/duel_mode_results_header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/NewDuelModeHeaderTextViewTheme" />
+        <ViewSwitcher android:id="@id/duel_mode_results_switcher" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:id="@id/duel_mode_results_button_refresh" android:background="@drawable/header_buttons_selector" android:paddingLeft="@dimen/leftright_padding" android:paddingRight="@dimen/leftright_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/icon_refresh" android:scaleType="centerInside" android:contentDescription="@string/refresh" />
+            <ImageView android:id="@id/duel_mode_results_button_share" android:background="@drawable/header_buttons_selector" android:paddingLeft="@dimen/leftright_padding" android:paddingRight="@dimen/leftright_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/icon_share" android:scaleType="centerInside" android:contentDescription="@string/share" />
+        </ViewSwitcher>
+    </RelativeLayout>
+    <View android:id="@id/navbar_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/duel_mode_results_header" style="@style/NavbarDividerTheme" />
+    <ListView android:id="@id/duel_mode_results_listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/navbar_divider" style="@style/DuelModeResultsListViewTheme" />
+</RelativeLayout>

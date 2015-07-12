@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/background_layout" />
+    <include android:id="@id/translate_question_header" layout="@layout/translate_question_header_layout" />
+    <View android:id="@id/navbar_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/translate_question_header" style="@style/NavbarDividerTheme" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/translate_question_languages_container" android:paddingLeft="@dimen/leftright_padding" android:paddingTop="5.0dip" android:paddingRight="@dimen/leftright_padding" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="100.0" android:layout_below="@id/navbar_divider" style="@style/TranslateQuestionContainter">
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/translate_question_button_language_from" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="50.0">
+            <ImageView android:id="@id/translate_language_from_flag" android:layout_width="@dimen/factory_translate_flag" android:layout_height="@dimen/factory_translate_flag" />
+            <com.etermax.tools.widget.CustomFontTextView android:id="@id/translate_language_from_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/translate_language_from_flag" android:layout_centerVertical="true" style="@style/TranslateQuestionSubtitleTheme" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/translate_question_button_language_to" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="50.0">
+            <ImageView android:id="@id/translate_language_to_flag" android:layout_width="@dimen/factory_translate_flag" android:layout_height="@dimen/factory_translate_flag" android:layout_alignParentRight="true" />
+            <com.etermax.tools.widget.CustomFontTextView android:gravity="right|center" android:id="@id/translate_language_to_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/translate_language_to_flag" android:layout_centerVertical="true" style="@style/TranslateQuestionSubtitleTheme" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ScrollView android:id="@id/translation_scroll" android:paddingLeft="@dimen/leftright_padding" android:paddingTop="@dimen/leftright_padding" android:paddingRight="@dimen/leftright_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/translate_question_languages_container">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/translate_question_translation_box" />
+            <View android:layout_width="fill_parent" android:layout_height="@dimen/leftright_padding" />
+            <LinearLayout android:orientation="vertical" android:id="@id/translate_questions_answer_1" android:background="@drawable/background_white_rounded_3d" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/translate_question_text_answer_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.etermax.tools.widget.CustomImageButton android:id="@id/copy_button_translation_answer_1" android:layout_width="25.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/TranslateQuestionCopyButtonTheme" />
+                    <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:id="@id/text_original_answer_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/copy_button_translation_answer_1" style="@style/TranslateQuestionBoxTextViewTheme" />
+                </RelativeLayout>
+                <View android:id="@id/divider" android:background="@color/grayVeryLight" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" />
+                <RelativeLayout android:id="@id/translate_question_translation_answer_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.etermax.tools.widget.CustomImageButton android:id="@id/clear_button_translation_answer_1" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/TranslateQuestionCloseButtonTheme" />
+                    <com.etermax.tools.widget.CustomFontEditText android:id="@id/text_translation_answer_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/clear_button_translation_answer_1" android:imeOptions="actionNext" style="@style/QuestionsFactoryEditTextTheme" />
+                    <com.etermax.tools.widget.CustomFontTextView android:gravity="bottom|right|center" android:id="@id/remaining_characters_answer_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/text_translation_answer_1" android:layout_alignParentRight="true" style="@style/QuestionsFactoryRemainingCharactersTheme" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="@dimen/leftright_padding" />
+            <LinearLayout android:orientation="vertical" android:id="@id/translate_questions_answer_2" android:background="@drawable/background_white_rounded_3d" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/translate_question_text_answer_2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.etermax.tools.widget.CustomImageButton android:id="@id/copy_button_translation_answer_2" android:layout_width="25.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/TranslateQuestionCopyButtonTheme" />
+                    <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:id="@id/text_original_answer_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/copy_button_translation_answer_2" style="@style/TranslateQuestionBoxTextViewTheme" />
+                </RelativeLayout>
+                <View android:id="@id/divider" android:background="@color/grayVeryLight" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" />
+                <RelativeLayout android:id="@id/translate_question_translation_answer_2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.etermax.tools.widget.CustomImageButton android:id="@id/clear_button_translation_answer_2" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/TranslateQuestionCloseButtonTheme" />
+                    <com.etermax.tools.widget.CustomFontEditText android:id="@id/text_translation_answer_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/clear_button_translation_answer_2" style="@style/QuestionsFactoryEditTextTheme" />
+                    <com.etermax.tools.widget.CustomFontTextView android:gravity="bottom|right|center" android:id="@id/remaining_characters_answer_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/text_translation_answer_2" android:layout_alignParentRight="true" style="@style/QuestionsFactoryRemainingCharactersTheme" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="@dimen/leftright_padding" />
+            <LinearLayout android:orientation="vertical" android:id="@id/translate_questions_answer_3" android:background="@drawable/background_white_rounded_3d" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/translate_question_text_answer_3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.etermax.tools.widget.CustomImageButton android:id="@id/copy_button_translation_answer_3" android:layout_width="25.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/TranslateQuestionCopyButtonTheme" />
+                    <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:id="@id/text_original_answer_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/copy_button_translation_answer_3" style="@style/TranslateQuestionBoxTextViewTheme" />
+                </RelativeLayout>
+                <View android:id="@id/divider" android:background="@color/grayVeryLight" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" />
+                <RelativeLayout android:id="@id/translate_question_translation_answer_3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.etermax.tools.widget.CustomImageButton android:id="@id/clear_button_translation_answer_3" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/TranslateQuestionCloseButtonTheme" />
+                    <com.etermax.tools.widget.CustomFontEditText android:id="@id/text_translation_answer_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/clear_button_translation_answer_3" style="@style/QuestionsFactoryEditTextTheme" />
+                    <com.etermax.tools.widget.CustomFontTextView android:gravity="bottom|right|center" android:id="@id/remaining_characters_answer_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/text_translation_answer_3" android:layout_alignParentRight="true" style="@style/QuestionsFactoryRemainingCharactersTheme" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="@dimen/leftright_padding" />
+            <LinearLayout android:orientation="vertical" android:id="@id/translate_questions_answer_4" android:background="@drawable/background_white_rounded_3d" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/translate_question_text_answer_4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.etermax.tools.widget.CustomImageButton android:id="@id/copy_button_translation_answer_4" android:layout_width="25.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/TranslateQuestionCopyButtonTheme" />
+                    <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:id="@id/text_original_answer_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/copy_button_translation_answer_4" style="@style/TranslateQuestionBoxTextViewTheme" />
+                </RelativeLayout>
+                <View android:id="@id/divider" android:background="@color/grayVeryLight" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" />
+                <RelativeLayout android:id="@id/translate_question_translation_answer_4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.etermax.tools.widget.CustomImageButton android:id="@id/clear_button_translation_answer_4" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/TranslateQuestionCloseButtonTheme" />
+                    <com.etermax.tools.widget.CustomFontEditText android:id="@id/text_translation_answer_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/clear_button_translation_answer_4" style="@style/QuestionsFactoryEditTextTheme" />
+                    <com.etermax.tools.widget.CustomFontTextView android:gravity="bottom|right|center" android:id="@id/remaining_characters_answer_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/text_translation_answer_4" android:layout_alignParentRight="true" style="@style/QuestionsFactoryRemainingCharactersTheme" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="@dimen/leftright_padding" />
+            <com.etermax.tools.widget.CustomFontButton android:id="@id/translate_question_preview_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/leftright_padding" android:text="@string/continue_" style="@style/TranslateQuestionPreviewButtonTheme" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

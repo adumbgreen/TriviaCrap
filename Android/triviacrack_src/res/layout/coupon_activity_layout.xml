@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:id="@id/coupon_header_header" android:layout_width="fill_parent" android:text="@string/coupon_plural" android:layout_alignParentTop="true" style="@style/CouponHeaderTheme" />
+    <FrameLayout android:id="@id/mainContent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/coupon_header_header" />
+</RelativeLayout>

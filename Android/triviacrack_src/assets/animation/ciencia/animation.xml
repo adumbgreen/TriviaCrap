@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Animations version="1">
+  <Animation name="ciencia" totalframes="327" framerate="25">
+    <Sizes>
+      <Size name="ipad2x" width="624.3" height="1082.6499"/>
+      <Size name="ipad" width="312.15" height="541.32495"/>
+      <Size name="iphone2x" width="267.28506" height="463.52097"/>
+      <Size name="iphone" width="133.64253" height="231.76048"/>
+      <Size name="iphone3x" width="518.533" height="899.2307"/>
+      <Size name="xhdpi" width="300.69568" height="521.4611"/>
+      <Size name="xxhdpi" width="451.04355" height="782.19165"/>
+      <Size name="hdpi" width="225.52177" height="391.09583"/>
+      <Size name="mdpi" width="150.34784" height="260.73056"/>
+      <Size name="ldpi" width="112.76089" height="195.54791"/>
+    </Sizes>
+    <Part name="ciencia_a_legs_01" posX="0.47533238" posY="0.8269986">
+      <frame repeat="49" name="ciencia_a_legs_01_0"/>
+      <frame repeat="1" name="ciencia_a_legs_01_49"/>
+      <frame repeat="1" name="ciencia_a_legs_01_50"/>
+      <frame repeat="1" name="ciencia_a_legs_01_51"/>
+      <frame repeat="64" name="ciencia_a_legs_01_52"/>
+      <frame repeat="1" name="ciencia_a_legs_01_51"/>
+      <frame repeat="1" name="ciencia_a_legs_01_50"/>
+      <frame repeat="1" name="ciencia_a_legs_01_49"/>
+      <frame repeat="208" name="ciencia_a_legs_01_0"/>
+    </Part>
+    <Part name="ciencia_b_arm_left_01" posX="0.71488065" posY="0.60448897">
+      <frame repeat="49" name="ciencia_b_arm_left_01_0"/>
+      <frame repeat="1" name="ciencia_b_arm_left_01_49"/>
+      <frame repeat="1" name="ciencia_b_arm_left_01_50"/>
+      <frame repeat="1" name="ciencia_b_arm_left_01_51"/>
+      <frame repeat="64" name="ciencia_b_arm_left_01_52"/>
+      <frame repeat="1" name="ciencia_b_arm_left_01_116"/>
+      <frame repeat="1" name="ciencia_b_arm_left_01_117"/>
+      <frame repeat="1" name="ciencia_b_arm_left_01_118"/>
+      <frame repeat="51" name="ciencia_b_arm_left_01_119"/>
+      <frame repeat="1" name="ciencia_b_arm_left_01_170"/>
+      <frame repeat="2" name="ciencia_b_arm_left_01_171"/>
+      <frame repeat="154" name="ciencia_b_arm_left_01_0"/>
+    </Part>
+    <Part name="ciencia_c_arm_right_01" posX="0.10467722" posY="0.5022861">
+      <frame repeat="49" name="ciencia_c_arm_right_01_0"/>
+      <frame repeat="1" name="ciencia_c_arm_right_01_49"/>
+      <frame repeat="1" name="ciencia_c_arm_right_01_50"/>
+      <frame repeat="1" name="ciencia_c_arm_right_01_51"/>
+      <frame repeat="64" name="ciencia_c_arm_right_01_52"/>
+      <frame repeat="1" name="ciencia_c_arm_right_01_116"/>
+      <frame repeat="1" name="ciencia_c_arm_right_01_117"/>
+      <frame repeat="1" name="ciencia_c_arm_right_01_118"/>
+      <frame repeat="1" name="ciencia_c_arm_right_01_119"/>
+      <frame repeat="1" name="ciencia_c_arm_right_01_120"/>
+      <frame repeat="46" name="ciencia_c_arm_right_01_121"/>
+      <frame repeat="1" name="ciencia_c_arm_right_01_167"/>
+      <frame repeat="2" name="ciencia_c_arm_right_01_168"/>
+      <frame repeat="157" name="ciencia_c_arm_right_01_0"/>
+    </Part>
+    <Part name="ciencia_d_body_01" posX="0.34662822" posY="0.2919226">
+      <frame repeat="49" name="ciencia_d_body_01_0"/>
+      <frame repeat="1" name="ciencia_d_body_01_49"/>
+      <frame repeat="1" name="ciencia_d_body_01_50"/>
+      <frame repeat="1" name="ciencia_d_body_01_51"/>
+      <frame repeat="64" name="ciencia_d_body_01_52"/>
+      <frame repeat="1" name="ciencia_d_body_01_51"/>
+      <frame repeat="1" name="ciencia_d_body_01_50"/>
+      <frame repeat="1" name="ciencia_d_body_01_49"/>
+      <frame repeat="208" name="ciencia_d_body_01_0"/>
+    </Part>
+    <Part name="ciencia_e_liquido_01" posX="0.4283998" posY="0.7419758">
+      <frame repeat="49" name="ciencia_e_liquido_01_0"/>
+      <frame repeat="1" name="ciencia_e_liquido_01_49"/>
+      <frame repeat="1" name="ciencia_e_liquido_01_50"/>
+      <frame repeat="1" name="ciencia_e_liquido_01_51"/>
+      <frame repeat="1" name="ciencia_e_liquido_01_52"/>
+      <frame repeat="1" name="ciencia_e_liquido_01_53"/>
+      <frame repeat="1" name="ciencia_e_liquido_01_54"/>
+      <frame repeat="1" name="ciencia_e_liquido_01_55"/>
+      <frame repeat="1" name="ciencia_e_liquido_01_56"/>
+      <frame repeat="1" name="ciencia_e_liquido_01_57"/>
+      <frame repeat="2" name="ciencia_e_liquido_01_58"/>
+      <frame repeat="2" name="ciencia_e_liquido_01_60"/>
+      <frame repeat="54" name="ciencia_e_liquido_01_62"/>
+      <frame repeat="1" name="ciencia_e_liquido_01_116"/>
+      <frame repeat="1" name="ciencia_e_liquido_01_117"/>
+      <frame repeat="1" name="ciencia_e_liquido_01_118"/>
+      <frame repeat="1" name="ciencia_e_liquido_01_119"/>
+      <frame repeat="1" name="ciencia_e_liquido_01_120"/>
+      <frame repeat="1" name="ciencia_e_liquido_01_121"/>
+      <frame repeat="2" name="ciencia_e_liquido_01_122"/>
+      <frame repeat="203" name="ciencia_e_liquido_01_0"/>
+    </Part>
+    <Part name="ciencia_f_brillo_01" posX="0.4111805" posY="0.6605551">
+      <frame repeat="49" name="ciencia_f_brillo_01_0"/>
+      <frame repeat="1" name="ciencia_f_brillo_01_49"/>
+      <frame repeat="1" name="ciencia_f_brillo_01_50"/>
+      <frame repeat="1" name="ciencia_f_brillo_01_51"/>
+      <frame repeat="64" name="ciencia_f_brillo_01_52"/>
+      <frame repeat="1" name="ciencia_f_brillo_01_51"/>
+      <frame repeat="1" name="ciencia_f_brillo_01_50"/>
+      <frame repeat="1" name="ciencia_f_brillo_01_49"/>
+      <frame repeat="208" name="ciencia_f_brillo_01_0"/>
+    </Part>
+    <Part name="ciencia_g_face_01" posX="0.44153452" posY="0.32078698">
+      <frame repeat="7" name="ciencia_g_face_01_0"/>
+      <frame repeat="1" name="ciencia_g_face_01_7"/>
+      <frame repeat="4" name="ciencia_g_face_01_8"/>
+      <frame repeat="1" name="ciencia_g_face_01_7"/>
+      <frame repeat="16" name="ciencia_g_face_01_0"/>
+      <frame repeat="1" name="ciencia_g_face_01_7"/>
+      <frame repeat="4" name="ciencia_g_face_01_8"/>
+      <frame repeat="1" name="ciencia_g_face_01_7"/>
+      <frame repeat="14" name="ciencia_g_face_01_0"/>
+      <frame repeat="1" name="ciencia_g_face_01_49"/>
+      <frame repeat="1" name="ciencia_g_face_01_50"/>
+      <frame repeat="1" name="ciencia_g_face_01_51"/>
+      <frame repeat="7" name="ciencia_g_face_01_52"/>
+      <frame repeat="1" name="ciencia_g_face_01_59"/>
+      <frame repeat="4" name="ciencia_g_face_01_60"/>
+      <frame repeat="1" name="ciencia_g_face_01_59"/>
+      <frame repeat="20" name="ciencia_g_face_01_52"/>
+      <frame repeat="1" name="ciencia_g_face_01_59"/>
+      <frame repeat="4" name="ciencia_g_face_01_60"/>
+      <frame repeat="1" name="ciencia_g_face_01_59"/>
+      <frame repeat="25" name="ciencia_g_face_01_52"/>
+      <frame repeat="1" name="ciencia_g_face_01_116"/>
+      <frame repeat="1" name="ciencia_g_face_01_117"/>
+      <frame repeat="1" name="ciencia_g_face_01_118"/>
+      <frame repeat="18" name="ciencia_g_face_01_119"/>
+      <frame repeat="3" name="ciencia_g_face_01_137"/>
+      <frame repeat="4" name="ciencia_g_face_01_119"/>
+      <frame repeat="3" name="ciencia_g_face_01_137"/>
+      <frame repeat="20" name="ciencia_g_face_01_119"/>
+      <frame repeat="1" name="ciencia_g_face_01_167"/>
+      <frame repeat="1" name="ciencia_g_face_01_168"/>
+      <frame repeat="8" name="ciencia_g_face_01_0"/>
+      <frame repeat="1" name="ciencia_g_face_01_7"/>
+      <frame repeat="4" name="ciencia_g_face_01_8"/>
+      <frame repeat="1" name="ciencia_g_face_01_7"/>
+      <frame repeat="16" name="ciencia_g_face_01_0"/>
+      <frame repeat="1" name="ciencia_g_face_01_7"/>
+      <frame repeat="4" name="ciencia_g_face_01_8"/>
+      <frame repeat="1" name="ciencia_g_face_01_7"/>
+      <frame repeat="28" name="ciencia_g_face_01_0"/>
+      <frame repeat="1" name="ciencia_g_face_01_7"/>
+      <frame repeat="4" name="ciencia_g_face_01_8"/>
+      <frame repeat="1" name="ciencia_g_face_01_7"/>
+      <frame repeat="25" name="ciencia_g_face_01_0"/>
+      <frame repeat="1" name="ciencia_g_face_01_7"/>
+      <frame repeat="4" name="ciencia_g_face_01_8"/>
+      <frame repeat="1" name="ciencia_g_face_01_7"/>
+      <frame repeat="27" name="ciencia_g_face_01_0"/>
+      <frame repeat="1" name="ciencia_g_face_01_7"/>
+      <frame repeat="4" name="ciencia_g_face_01_8"/>
+      <frame repeat="1" name="ciencia_g_face_01_7"/>
+      <frame repeat="24" name="ciencia_g_face_01_0"/>
+    </Part>
+    <Part name="ciencia_h_hand_01" posX="0.0" posY="0.42169678">
+      <frame repeat="49" name="ciencia_h_hand_01_0"/>
+      <frame repeat="1" name="ciencia_h_hand_01_49"/>
+      <frame repeat="1" name="ciencia_h_hand_01_50"/>
+      <frame repeat="1" name="ciencia_h_hand_01_51"/>
+      <frame repeat="64" name="ciencia_h_hand_01_52"/>
+      <frame repeat="1" name="ciencia_h_hand_01_116"/>
+      <frame repeat="1" name="ciencia_h_hand_01_117"/>
+      <frame repeat="1" name="ciencia_h_hand_01_118"/>
+      <frame repeat="1" name="ciencia_h_hand_01_119"/>
+      <frame repeat="1" name="ciencia_h_hand_01_120"/>
+      <frame repeat="46" name="ciencia_h_hand_01_121"/>
+      <frame repeat="1" name="ciencia_h_hand_01_167"/>
+      <frame repeat="2" name="ciencia_h_hand_01_168"/>
+      <frame repeat="157" name="ciencia_h_hand_01_0"/>
+    </Part>
+    <Part name="ciencia_i_bulb_01" posX="0.3366971" posY="0.0">
+      <frame repeat="47" name="ciencia_i_bulb_01_0"/>
+      <frame repeat="2" name="ciencia_i_bulb_01_47"/>
+      <frame repeat="1" name="ciencia_i_bulb_01_49"/>
+      <frame repeat="2" name="ciencia_i_bulb_01_50"/>
+      <frame repeat="1" name="ciencia_i_bulb_01_52"/>
+      <frame repeat="2" name="ciencia_i_bulb_01_53"/>
+      <frame repeat="49" name="ciencia_i_bulb_01_55"/>
+      <frame repeat="32" name="ciencia_i_bulb_01_104"/>
+      <frame repeat="1" name="ciencia_i_bulb_01_136"/>
+      <frame repeat="3" name="ciencia_i_bulb_01_137"/>
+      <frame repeat="1" name="ciencia_i_bulb_01_140"/>
+      <frame repeat="1" name="ciencia_i_bulb_01_141"/>
+      <frame repeat="1" name="ciencia_i_bulb_01_142"/>
+      <frame repeat="1" name="ciencia_i_bulb_01_143"/>
+      <frame repeat="183" name="ciencia_i_bulb_01_0"/>
+    </Part>
+  </Animation>
+</Animations>

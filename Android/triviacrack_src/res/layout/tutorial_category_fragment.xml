@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/tutorialcategoryFragmentLayout" android:background="#90000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/category_wheel_header" android:visibility="invisible" style="@style/NavBarHeaderTheme">
+        <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:id="@id/category_wheel_header_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" style="@style/NavBarHeaderTextViewTheme" />
+        <ImageView android:id="@id/chat_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/header_chat" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <include android:id="@id/player_info_container" android:visibility="invisible" android:layout_below="@id/category_wheel_header" style="@style/game_players_info_theme" layout="@layout/game_players_info_layout" />
+    <com.etermax.tools.widget.CustomLinearButton android:gravity="center" android:id="@id/resign_game_button" android:visibility="invisible" android:layout_marginLeft="@dimen/leftright_padding" android:layout_marginBottom="@dimen/leftright_padding" android:minWidth="80.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" style="@style/SecondaryButtonTheme">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/game_score_resign" />
+    </com.etermax.tools.widget.CustomLinearButton>
+    <com.etermax.tools.widget.CustomLinearButton android:gravity="center" android:id="@id/stat_game_button" android:visibility="invisible" android:layout_marginRight="@dimen/leftright_padding" android:layout_marginBottom="@dimen/leftright_padding" android:minWidth="80.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/SecondaryButtonTheme">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stat" />
+    </com.etermax.tools.widget.CustomLinearButton>
+    <ImageView android:id="@id/charges_view" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/crown_progress_color" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/charges_tutorial" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/charges_view" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/quick_action" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CommonQuickActionBackground">
+            <com.etermax.tools.widget.CustomFontTextView android:textSize="@dimen/game_tutorial_text" android:textStyle="bold" android:textColor="#ff2a254f" android:gravity="center" android:id="@id/quick_action_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:maxWidth="135.0dip" android:text="@string/tutotial_tooltip_power" android:maxLines="3" font="facit-extrabold.otf" />
+        </LinearLayout>
+        <ImageView android:id="@id/quick_action_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" android:src="@drawable/quick_action_arrow" android:layout_below="@id/quick_action" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/charges_view" android:layout_below="@id/player_info_container">
+        <com.etermax.preguntados.ui.game.category.wheel.CategoryWheelView android:id="@id/wheel_view" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wheel" android:layout_centerInParent="true" />
+        <com.etermax.tools.widget.CustomFontTextView android:gravity="center_horizontal" android:id="@id/tutorial_text" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/game_tutorial_spin_text_margin" android:text="@string/tutotial_tooltip_tap_or_swipe" android:layout_alignParentTop="true" style="@style/TutorialTitleTextview" />
+        <com.etermax.tools.widget.CustomFontTextView android:id="@id/spin_button_image" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/SpinTextViewTheme" />
+        <ImageView android:id="@id/arrow_start" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/game_tutorial_arrow_margin" android:src="@drawable/arrow_start" android:layout_alignTop="@id/spin_button_image" android:layout_alignRight="@id/spin_button_image" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.etermax.tools.widget.CustomLinearButton android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/empty_inbox_dialog_accept_button_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/popup_main_button_sides_padding" android:layout_marginTop="@dimen/popup_button_top_bottom_margin" android:layout_marginRight="@dimen/popup_button_top_bottom_margin" android:layout_marginBottom="@dimen/popup_button_top_bottom_margin" android:layout_weight="1.0" style="@style/PopupSecondButtonTheme">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_classic_new_game" />
+        <com.etermax.tools.widget.CustomFontTextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/send" style="@style/PopupButtonThemeText" />
+    </com.etermax.tools.widget.CustomLinearButton>
+    <com.etermax.tools.widget.CustomLinearButton android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/empty_inbox_dialog_accept_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/popup_button_top_bottom_margin" android:layout_marginRight="@dimen/popup_main_button_sides_padding" android:layout_marginBottom="@dimen/popup_button_top_bottom_margin" android:layout_weight="1.0" style="@style/PopupButtonTheme">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_live_gift_btn" />
+        <com.etermax.tools.widget.CustomFontTextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/send" style="@style/PopupButtonThemeText" />
+    </com.etermax.tools.widget.CustomLinearButton>
+</LinearLayout>

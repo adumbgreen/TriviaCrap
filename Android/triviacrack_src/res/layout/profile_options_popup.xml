@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ProfileOptionsRootTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.etermax.tools.widget.CustomTriangle android:id="@id/quick_action_arrow" app:direction="top" style="@style/ProfileOptionsArrow" />
+    <LinearLayout android:orientation="vertical" android:id="@id/quick_action_frame_layout" android:layout_height="wrap_content" android:layout_below="@id/quick_action_arrow" android:layout_alignParentRight="true" style="@style/ProfileOptionsTheme">
+        <LinearLayout android:orientation="horizontal" android:id="@id/btn_add_friend" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/img_add_friend" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/add_friend_profile" />
+            <com.etermax.tools.widget.CustomFontTextView android:textSize="@dimen/profile_popup_title" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/txt_add_friend" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add Friend" style="@style/ProfileOptionTitle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/separator1" android:background="@color/grayLighter" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/btn_block" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/img_block" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/friend_blocked" />
+            <com.etermax.tools.widget.CustomFontTextView android:textSize="@dimen/profile_popup_title" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/txt_block" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Block" style="@style/ProfileOptionTitle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/separator2" android:background="@color/grayLighter" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/btn_report" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/img_report_user" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/report_friend_profile" />
+            <com.etermax.tools.widget.CustomFontTextView android:textSize="@dimen/profile_popup_title" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/txt_report_user" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/report_abuse" style="@style/ProfileOptionTitle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

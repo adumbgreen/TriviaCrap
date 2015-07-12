@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/background_layout" />
+    <include android:id="@id/questions_factory_header" layout="@layout/questions_factory_header_layout" />
+    <View android:id="@id/navbar_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/questions_factory_header" style="@style/NavbarDividerTheme" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_below="@id/navbar_divider">
+        <LinearLayout android:orientation="vertical" android:id="@id/questions_factory_panel_buttons_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.etermax.tools.widget.CustomLinearButton android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/questions_factory_panel_suggest_button" android:background="@color/white" android:paddingLeft="@dimen/leftright_padding" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/factory_suggest" />
+                <LinearLayout android:gravity="bottom" android:orientation="vertical" android:paddingLeft="15.0dip" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.etermax.tools.widget.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/suggest_question" style="@style/QuestionsFactoryPanelButtonTitle" />
+                    <com.etermax.tools.widget.CustomFontTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/suggest_question_txt" style="@style/QuestionsFactoryPanelButtonSubtitle" />
+                </LinearLayout>
+            </com.etermax.tools.widget.CustomLinearButton>
+            <View android:background="@color/grayVeryLight" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <com.etermax.tools.widget.CustomLinearButton android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/questions_factory_panel_rate_button" android:background="@color/white" android:paddingLeft="@dimen/leftright_padding" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/FactoryRatingsButtonTheme">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/factory_rate" />
+                <LinearLayout android:gravity="bottom" android:orientation="vertical" android:paddingLeft="15.0dip" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.etermax.tools.widget.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rate_questions" style="@style/QuestionsFactoryPanelButtonTitle" />
+                    <com.etermax.tools.widget.CustomFontTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/rate_questions_txt" style="@style/QuestionsFactoryPanelButtonSubtitle" />
+                </LinearLayout>
+            </com.etermax.tools.widget.CustomLinearButton>
+            <View android:background="@color/grayVeryLight" android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/FactoryRatingsButtonTheme" />
+            <com.etermax.tools.widget.CustomLinearButton android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/questions_factory_panel_translate_button" android:background="@color/white" android:paddingLeft="@dimen/leftright_padding" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/factory_translate" />
+                <LinearLayout android:gravity="bottom" android:orientation="vertical" android:paddingLeft="15.0dip" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.etermax.tools.widget.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/translate_questions" style="@style/QuestionsFactoryPanelButtonTitle" />
+                    <com.etermax.tools.widget.CustomFontTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/translate_questions_txt" style="@style/QuestionsFactoryPanelButtonSubtitle" />
+                </LinearLayout>
+            </com.etermax.tools.widget.CustomLinearButton>
+            <View android:background="@color/grayVeryLight" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <com.etermax.tools.widget.CustomLinearButton android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/questions_factory_panel_stats_button" android:background="@color/white" android:paddingLeft="@dimen/leftright_padding" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/factory_my_questions" />
+                <LinearLayout android:gravity="bottom" android:orientation="vertical" android:paddingLeft="15.0dip" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.etermax.tools.widget.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_questions" style="@style/QuestionsFactoryPanelButtonTitle" />
+                    <com.etermax.tools.widget.CustomFontTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/my_questions_txt" style="@style/QuestionsFactoryPanelButtonSubtitle" />
+                </LinearLayout>
+            </com.etermax.tools.widget.CustomLinearButton>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/black" android:layout_width="640.0px" android:layout_height="640.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.etermax.tools.widget.CustomFontTextView android:textSize="48.0px" android:gravity="center_horizontal" android:id="@id/popup_level_up_share_layout_app_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0px" android:text="@string/app_name" style="@style/PopUpLevelUpTittle" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/popup_level_up_share_layout_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/popup_level_up_share_layout_app_title" android:layout_centerHorizontal="true">
+        <com.etermax.tools.widget.CustomFontTextView android:textSize="40.0px" android:id="@id/popup_level_up_share_layout_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="title" style="@style/PopLevelUpShareUser" />
+        <com.etermax.tools.widget.CustomFontTextView android:textSize="30.0px" android:gravity="center" android:id="@id/popup_level_up_share_layout_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0px" android:text="description" style="@style/PopLevelUpShareDescription" />
+        <ImageView android:id="@id/popup_level_up_share_layout_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0px" android:src="@drawable/achievement_320" android:adjustViewBounds="true" android:maxWidth="250.0px" android:maxHeight="220.0px" style="@style/PopLevelUpShareImage" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/popup_level_up_share_layout_personal_info" android:layout_width="fill_parent" android:layout_height="180.0px" android:layout_marginTop="15.0px" android:layout_below="@id/popup_level_up_share_layout_content" android:layout_alignParentBottom="true">
+        <include android:id="@id/popup_level_up_share_layout_avatar" android:layout_width="120.0px" android:layout_height="120.0px" android:layout_marginRight="25.0px" layout="@layout/share_common_user_icon_rounded" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="120.0px" android:layout_toRightOf="@id/popup_level_up_share_layout_avatar">
+            <com.etermax.tools.widget.CustomFontTextView android:id="@id/popup_level_up_share_layout_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ale" style="@style/PopLevelUpShareUserName" />
+            <com.etermax.tools.widget.CustomFontTextView android:id="@id/popup_level_up_share_layout_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Buenos Aires, Argentina" style="@style/PopLevelUpShareLocation" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

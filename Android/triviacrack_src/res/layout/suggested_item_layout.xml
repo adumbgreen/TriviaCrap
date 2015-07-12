@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DashboardItemTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/tile_left_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" style="@style/DashboardLeftFlagTheme" layout="@layout/player_item_tile_layout" />
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/opponent_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/tile_left_view" style="@style/DashboardItemOpponentTheme" />
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/dashboard_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/tile_left_view" android:layout_below="@id/opponent_text_view" style="@style/SuggestedSubTextTheme" />
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/time_text_view" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/dashboard_item_text" android:layout_alignLeft="@id/facebook_simple_item_description" style="@style/DashboardItemTimeTheme" />
+    <include android:id="@id/tile_right_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/arrow" android:layout_centerVertical="true" layout="@layout/player_item_tile_layout" />
+    <View android:id="@id/divider" android:layout_width="fill_parent" android:layout_alignParentBottom="true" style="@style/DashboardListDivider" />
+</RelativeLayout>

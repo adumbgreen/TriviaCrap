@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" style="@style/PopupFriendsContainer">
+        <com.etermax.tools.widget.CustomFontTextView android:textSize="@dimen/friends_grid_title_text_size" android:gravity="center" android:id="@id/friends_grid_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="3.0dip" android:layout_centerHorizontal="true" style="@style/PopupFriendsContainerTitle" />
+        <GridView android:gravity="center" android:id="@id/friends_grid_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:listSelector="#00000000" android:horizontalSpacing="@dimen/empty_inbox_dialog_images_padding" android:verticalSpacing="@dimen/empty_inbox_dialog_images_padding" android:numColumns="5" android:layout_below="@id/friends_grid_title" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

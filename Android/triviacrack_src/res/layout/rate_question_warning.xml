@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/blackAlpha" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rate_question_warning_buttons_content" android:padding="@dimen/leftright_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="100.0" android:layout_alignParentBottom="true">
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="40.0">
+                    <com.etermax.tools.widget.CustomFontButton android:id="@id/rate_question_warning_reject_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/i_am_underage" style="@style/RateQuestionWarningRejectButton" />
+                </FrameLayout>
+                <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="20.0" />
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="40.0">
+                    <com.etermax.tools.widget.CustomFontButton android:id="@id/rate_question_warning_accept_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/continue_" style="@style/RateQuestionWarningAcceptButton" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/rate_question_warning_tittle_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/leftright_padding" android:layout_marginRight="@dimen/leftright_padding" android:layout_alignParentTop="true">
+                <com.etermax.tools.widget.CustomFontTextView android:id="@id/rate_question_warning_tittle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="35.0dip" android:layout_marginTop="@dimen/factory_rate_title_margin" android:layout_marginRight="35.0dip" android:text="@string/attention" style="@style/RateQuestionWarningTittle" />
+                <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:id="@id/rate_question_warning_subTittle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="@dimen/factory_rate_subtitle_margin" android:layout_marginRight="15.0dip" android:text="@string/warning_rate_questions" style="@style/RateQuestionWarningSubTittle" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/rate_question_warning_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/rate_question_warning_buttons_content" android:layout_below="@id/rate_question_warning_tittle_content">
+                <ImageView android:layout_gravity="center" android:id="@id/rate_question_warning_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/atencion_calificar" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <com.etermax.tools.widgetv2.CustomLinearButton android:id="@id/rate_question_warning_close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/leftright_padding" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/RedButtonCloseTheme">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_close" android:scaleType="centerInside" />
+    </com.etermax.tools.widgetv2.CustomLinearButton>
+</RelativeLayout>

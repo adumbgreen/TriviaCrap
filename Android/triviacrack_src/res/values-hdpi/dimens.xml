@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gifting_dialog_listview_height">250.0dip</dimen>
+    <dimen name="player_item_icon_size">50.0dip</dimen>
+    <dimen name="new_game_flag_height">50.0dip</dimen>
+    <dimen name="new_game_flag_width">110.0dip</dimen>
+    <dimen name="new_game_tick_height">30.0dip</dimen>
+    <dimen name="new_game_tick_width">30.0dip</dimen>
+    <dimen name="new_game_tick_margin">4.0dip</dimen>
+    <dimen name="login_choose_facebook_account_margin_top">50.0dip</dimen>
+    <dimen name="banner_pro_text_size">16.0sp</dimen>
+    <dimen name="banner_pro_text_right_margin">10.0dip</dimen>
+    <dimen name="game_end_padding">18.0dip</dimen>
+    <dimen name="game_end_margin_top">60.0dip</dimen>
+    <dimen name="game_end_match_scores_margin_top">60.0dip</dimen>
+    <dimen name="game_end_margin_leftright">0.0dip</dimen>
+    <dimen name="com_facebook_picker_divider_width">1.0px</dimen>
+    <dimen name="tutorial_powerups_text_title">35.0sp</dimen>
+    <dimen name="tutorial_powerups_text_subtitle">15.0sp</dimen>
+    <dimen name="tutorial_powerups_text_description">15.0sp</dimen>
+</resources>

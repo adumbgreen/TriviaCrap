@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.etermax.tools.widgetv2.CustomFontButton android:textSize="15.0sp" android:textColor="@color/black" android:layout_gravity="center" android:id="@id/chat_dialog_actions_first_row" android:background="@drawable/chat_dialog_item_background" android:layout_width="fill_parent" android:layout_height="40.0dip" style="@style/robot_font_style" />
+    <View android:background="@color/dark_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.etermax.tools.widgetv2.CustomFontButton android:textSize="15.0sp" android:textColor="@color/black" android:layout_gravity="center" android:id="@id/chat_dialog_actions_second_row" android:background="@drawable/chat_dialog_item_background" android:layout_width="fill_parent" android:layout_height="40.0dip" style="@style/robot_font_style" />
+    <View android:background="@color/dark_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.etermax.tools.widgetv2.CustomFontButton android:textSize="15.0sp" android:textColor="@color/black" android:layout_gravity="center" android:id="@id/chat_dialog_actions_third_row" android:background="@drawable/chat_dialog_item_background" android:layout_width="fill_parent" android:layout_height="40.0dip" style="@style/robot_font_style" />
+    <View android:background="@color/dark_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.etermax.tools.widgetv2.CustomFontButton android:textSize="15.0sp" android:textColor="@color/black" android:layout_gravity="center" android:id="@id/chat_dialog_actions_fourth_row" android:background="@drawable/chat_dialog_item_background" android:layout_width="fill_parent" android:layout_height="40.0dip" style="@style/robot_font_style" />
+</LinearLayout>

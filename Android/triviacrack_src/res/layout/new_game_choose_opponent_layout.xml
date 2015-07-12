@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="40.0">
+        <com.etermax.tools.widget.CustomFontTextView android:id="@id/new_game_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/new_game_mode_title_margin" android:text="@string/game_mode" style="@style/NewGameModeTextTheme" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/game_mode_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/button_margin_right" android:baselineAligned="false" android:weightSum="1.0">
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.5">
+                <com.etermax.preguntados.ui.widget.ManualCustomLinearButton android:gravity="center" android:orientation="horizontal" android:id="@id/classic_mode_button" android:layout_width="fill_parent" android:layout_marginTop="@dimen/button_margin_top" android:layout_marginRight="@dimen/button_margin_right" style="@style/NewGameClassicModeButtonTheme">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/app_name" style="@style/NewGameClassicModeImageTheme" />
+                    <com.etermax.tools.widget.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/NewGameClassicModeTextTheme" />
+                </com.etermax.preguntados.ui.widget.ManualCustomLinearButton>
+                <ImageView android:id="@id/tick_classic" android:visibility="invisible" android:layout_width="@dimen/new_game_tick_image" android:layout_height="@dimen/new_game_tick_image" android:src="@drawable/tick_green" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@string/app_name" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.5">
+                <com.etermax.preguntados.ui.widget.ManualCustomLinearButton android:gravity="center" android:orientation="horizontal" android:id="@id/duel_mode_button" android:layout_width="fill_parent" android:layout_marginTop="@dimen/button_margin_top" android:layout_marginRight="@dimen/button_margin_right" style="@style/NewGameDuelModeButtonTheme">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/app_name" style="@style/NewGameDuelModeImageTheme" />
+                    <com.etermax.tools.widget.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/NewGameDuelModeTextTheme" />
+                </com.etermax.preguntados.ui.widget.ManualCustomLinearButton>
+                <ImageView android:id="@id/tick_duel" android:visibility="invisible" android:layout_width="@dimen/new_game_tick_image" android:layout_height="@dimen/new_game_tick_image" android:src="@drawable/tick_green" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@string/app_name" />
+            </RelativeLayout>
+        </LinearLayout>
+        <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:id="@id/detail_mode_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" style="@style/NewGameDetailText" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="35.0">
+        <com.etermax.tools.widget.CustomFontTextView android:id="@id/oponent_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/opponent" style="@style/NewGameModeTextTheme" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/oponnent_mode_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/button_margin_right" android:weightSum="1.0">
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.5">
+                <com.etermax.preguntados.ui.widget.ManualCustomLinearButton android:gravity="center" android:orientation="horizontal" android:id="@id/friend_opponent_button" android:layout_marginTop="@dimen/button_margin_top" android:layout_marginRight="@dimen/button_margin_right" style="@style/NewGameFriendOpponentButtonTheme">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/app_name" style="@style/NewGameFriendOpponentImageTheme" />
+                    <com.etermax.tools.widget.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/NewGameFriendOpponentTextTheme" />
+                </com.etermax.preguntados.ui.widget.ManualCustomLinearButton>
+                <ImageView android:id="@id/tick_friend" android:visibility="invisible" android:layout_width="@dimen/new_game_tick_image" android:layout_height="@dimen/new_game_tick_image" android:src="@drawable/tick_green" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@string/app_name" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.5">
+                <com.etermax.preguntados.ui.widget.ManualCustomLinearButton android:gravity="center" android:orientation="horizontal" android:id="@id/random_opponent_button" android:layout_marginTop="@dimen/button_margin_top" android:layout_marginRight="@dimen/button_margin_right" style="@style/NewGameRandomOpponentButtonTheme">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/app_name" style="@style/NewGameRandomOpponentImageTheme" />
+                    <com.etermax.tools.widget.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/NewGameRandomOpponentTextTheme" />
+                </com.etermax.preguntados.ui.widget.ManualCustomLinearButton>
+                <ImageView android:id="@id/tick_random" android:visibility="invisible" android:layout_width="@dimen/new_game_tick_image" android:layout_height="@dimen/new_game_tick_image" android:src="@drawable/tick_green" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@string/app_name" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/play_now_button_content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="20.0">
+        <com.etermax.tools.widget.CustomLinearButton android:gravity="center" android:orientation="horizontal" android:id="@id/play_now_button" android:layout_width="fill_parent" android:layout_height="@dimen/new_game_button_height" style="@style/NewGamePlayButtonTheme">
+            <com.etermax.tools.widget.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/play_now_" style="@style/NewGamePlayNowTextTheme" />
+        </com.etermax.tools.widget.CustomLinearButton>
+    </LinearLayout>
+</LinearLayout>

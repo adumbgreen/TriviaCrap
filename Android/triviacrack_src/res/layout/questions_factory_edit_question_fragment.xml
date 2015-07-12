@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" layout="@layout/background_layout" />
+    <include android:id="@id/questions_factory_header" layout="@layout/questions_factory_header_layout" />
+    <include android:id="@id/questions_factory_bar" layout="@layout/questions_factory_bar" />
+    <ScrollView android:id="@id/statistics_question_edit_scroll" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/questions_factory_bar" android:layout_below="@id/questions_factory_header">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/question_answer_button_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/statistics_edit_question_container" style="@style/QuestionsFactoryWriteContainer">
+                <com.etermax.preguntados.ui.questionsfactory.widget.SuggestQuestionEditText android:id="@id/statistics_question_edit_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minLines="5" style="@style/QuestionsFactoryEditTextTheme" />
+                <com.etermax.tools.widget.CustomFontTextView android:id="@id/statistics_question_remaining_characters" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/statistics_question_edit_text" android:layout_alignParentRight="true" style="@style/QuestionsFactoryRemainingCharactersTheme" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/statistics_question_answer_container_1" android:layout_width="fill_parent" android:layout_height="@dimen/edit_question_answer_height" android:layout_marginTop="@dimen/edit_question_answer_margin" style="@style/QuestionsFactoryWrongAnswerButtonTheme">
+                <com.etermax.tools.widget.CustomFontTextView android:id="@id/statistics_question_remaining_characters_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/QuestionsFactoryRemainingCharactersTheme" />
+                <com.etermax.tools.widget.CustomFontEditText android:id="@id/statistics_question_edit_answer_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:singleLine="true" android:layout_toLeftOf="@id/statistics_question_remaining_characters_1" android:layout_centerInParent="true" style="@style/SuggestQuestionWrongAnswerEditTextTheme" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/statistics_question_answer_container_2" android:layout_width="fill_parent" android:layout_height="@dimen/edit_question_answer_height" android:layout_marginTop="@dimen/edit_question_answer_margin" style="@style/QuestionsFactoryWrongAnswerButtonTheme">
+                <com.etermax.tools.widget.CustomFontTextView android:id="@id/statistics_question_remaining_characters_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/QuestionsFactoryRemainingCharactersTheme" />
+                <com.etermax.tools.widget.CustomFontEditText android:id="@id/statistics_question_edit_answer_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:singleLine="true" android:layout_toLeftOf="@id/statistics_question_remaining_characters_2" android:layout_centerInParent="true" style="@style/SuggestQuestionWrongAnswerEditTextTheme" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/statistics_question_answer_container_3" android:layout_width="fill_parent" android:layout_height="@dimen/edit_question_answer_height" android:layout_marginTop="@dimen/edit_question_answer_margin" style="@style/QuestionsFactoryWrongAnswerButtonTheme">
+                <com.etermax.tools.widget.CustomFontTextView android:id="@id/statistics_question_remaining_characters_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/QuestionsFactoryRemainingCharactersTheme" />
+                <com.etermax.tools.widget.CustomFontEditText android:id="@id/statistics_question_edit_answer_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:singleLine="true" android:layout_toLeftOf="@id/statistics_question_remaining_characters_3" android:layout_centerInParent="true" style="@style/SuggestQuestionWrongAnswerEditTextTheme" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/statistics_question_answer_container_4" android:layout_width="fill_parent" android:layout_height="@dimen/edit_question_answer_height" android:layout_marginTop="15.0dip" style="@style/QuestionsFactoryWrongAnswerButtonTheme">
+                <com.etermax.tools.widget.CustomFontTextView android:id="@id/statistics_question_remaining_characters_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/QuestionsFactoryRemainingCharactersTheme" />
+                <com.etermax.tools.widget.CustomFontEditText android:id="@id/statistics_question_edit_answer_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:singleLine="true" android:layout_toLeftOf="@id/statistics_question_remaining_characters_4" android:layout_centerInParent="true" style="@style/SuggestQuestionWrongAnswerEditTextTheme" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days">
+        <item quantity="other">Дней: %1$d</item>
+        <item quantity="one">1 день</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">Часов: %1$d</item>
+        <item quantity="one">1 час</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">Минут: %1$d</item>
+        <item quantity="one">1 минута</item>
+    </plurals>
+    <plurals name="new_messages">
+        <item quantity="other">%1$d new messages</item>
+        <item quantity="one">1 new message</item>
+    </plurals>
+    <plurals name="amount_player">
+        <item quantity="other">%1$d Игроки</item>
+        <item quantity="one">%1$d Игрок</item>
+    </plurals>
+    <plurals name="characters_limit">
+        <item quantity="other">Введите по крайней мере %1$d символов.</item>
+        <item quantity="one">Введите по крайней мере %1$d символ.</item>
+    </plurals>
+    <plurals name="coins_pack">
+        <item quantity="other">Пакет из %1$d Монеты</item>
+        <item quantity="one">Пакет из %1$d Монета</item>
+    </plurals>
+    <plurals name="lives_pack">
+        <item quantity="other">Пакет из %1$d Жизней</item>
+        <item quantity="one">Пакет из %1$d Жизнь</item>
+    </plurals>
+    <plurals name="push_gifting_send_01">
+        <item quantity="other">Уже Дней: %1$d -й день как застряли. Нужна помощь?</item>
+        <item quantity="one">Уже 1 день -й день как застряли. Нужна помощь?</item>
+    </plurals>
+    <plurals name="spins_pack">
+        <item quantity="other">Пакет из %1$d Раскруток</item>
+        <item quantity="one">Пакет из %1$d Раскрутка</item>
+    </plurals>
+    <plurals name="user_common_friend">
+        <item quantity="other">У Вас имеется %1$d общих друга включая %2$s и %3$s</item>
+        <item quantity="one">У Вас имеется общий друг</item>
+    </plurals>
+    <plurals name="user_favourite">
+        <item quantity="other">%1$s добавил %2$d %3$s в избранное</item>
+        <item quantity="one">%1$s добавил %2$s в избранное</item>
+    </plurals>
+    <plurals name="user_follow_now">
+        <item quantity="other">%1$s подписался на %2$d друзей</item>
+        <item quantity="one">%1$s подписался на %2$s</item>
+    </plurals>
+    <plurals name="user_lost_group_challenge">
+        <item quantity="other">Я только что проиграл дружеский поединок %1$s против %2$d друзей в Trivia Crack</item>
+        <item quantity="one">Я только что проиграл дружеский поединок %1$s в Trivia Crack</item>
+    </plurals>
+    <plurals name="user_lost_worldcup_challenge">
+        <item quantity="other">Я только что проиграл Мундиальный Поединок против %1$d друзей в Trivia Crack</item>
+        <item quantity="one">Я только что проиграл Мундиальный Поединок в Trivia Crack</item>
+    </plurals>
+    <plurals name="user_won_group_challenge">
+        <item quantity="other">Я только что выиграл дружеский поединок %1$s против %2$d друзей в Trivia Crack!</item>
+        <item quantity="one">Я только что выиграл дружеский поединок %1$s в Trivia Crack!</item>
+    </plurals>
+    <plurals name="user_won_worldcup_challenge">
+        <item quantity="other">I just won the Cup Duel %1$s against %2$d friends in Trivia Crack!</item>
+        <item quantity="one">I just won the Cup Duel %1$s in Trivia Crack!</item>
+    </plurals>
+    <plurals name="x_coupons_deal">
+        <item quantity="other">"You've entered %1$d coupons from %2$s's deal."</item>
+        <item quantity="one">"You've entered 1 coupon from %1$s's deal."</item>
+    </plurals>
+    <plurals name="invited_group_challenge_txt">
+        <item quantity="other">Начать поединок %1$s. Играть с %2$d друзьями!</item>
+        <item quantity="one">Начать поединок %1$s. Играть с %2$s другом!</item>
+    </plurals>
+</resources>

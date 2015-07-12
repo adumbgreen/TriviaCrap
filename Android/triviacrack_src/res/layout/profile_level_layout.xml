@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/header_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ProfileSectionLevelTitle" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ProfileLevelContainerTheme">
+        <ImageView android:id="@id/level_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.etermax.tools.widget.CustomFontTextView android:id="@id/answered_questions" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ProfileLevelAnsweredQuestions" />
+            <com.etermax.tools.widget.CustomFontTextView android:id="@id/level_progress_bar_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" style="@style/ProfileLevelText" />
+            <com.etermax.preguntados.ui.profile.ProfileLevelProgressBar_ android:id="@id/level_progress_bar" android:paddingLeft="@dimen/leftright_padding" android:paddingRight="@dimen/leftright_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:baselineAligned="false" style="@style/SecondaryNavBarHeaderTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/lives_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/dashboard_secondary_nav_bar_lives_layout" />
+    <View style="@style/DashboardSecondaryBarDivider" />
+    <include android:id="@id/spins_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/dashboard_secondary_nav_bar_spins_layout" />
+    <View style="@style/DashboardSecondaryBarDivider" />
+    <include android:id="@id/coins_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/dashboard_secondary_nav_bar_coins_layout" />
+</LinearLayout>

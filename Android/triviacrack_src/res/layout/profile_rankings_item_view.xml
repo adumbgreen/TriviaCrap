@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/place_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CategoryItemTitle" />
+    <ImageView android:id="@id/place_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.etermax.tools.widget.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/player_won_games" android:singleLine="true" style="@style/CategoryItemQuantity" />
+        <com.etermax.tools.widget.CustomFontTextView android:id="@id/place_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:minWidth="@dimen/profile_rankings_count_view_size" style="@style/ProfileRankingCountTheme" />
+    </LinearLayout>
+</LinearLayout>

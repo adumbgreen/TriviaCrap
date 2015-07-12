@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ProfileUserHeaderTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:emx="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/userHeaderImage" style="@style/avatarContainer">
+        <RelativeLayout android:id="@id/imageHolder" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:layout_gravity="center" android:id="@id/userIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/common_user_icon_rounded" />
+            <com.etermax.tools.widget.CustomFontTextView android:id="@id/level" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/profile_level_margin" android:layout_marginBottom="@dimen/profile_level_margin" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/ProfileHeaderLevelText" />
+            <com.etermax.tools.widget.CustomFontTextView android:textColor="@color/white" android:gravity="center" android:id="@id/changeImageView" android:background="#66000000" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/change" android:layout_alignParentBottom="true" style="@style/ProfileChangeImageTheme" />
+        </RelativeLayout>
+        <ImageView android:id="@id/blockIcon" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/avatar_user_blocked" android:scaleType="centerInside" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/userCountry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <LinearLayout style="@style/ProfileUserHeaderCountryFlagTheme">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ProfileUserHeaderCountryFlagContainerTheme">
+                <com.etermax.tools.widget.CustomFontTextView android:textColor="@color/white" android:gravity="center" android:id="@id/countryNotDef" android:background="@drawable/flag_stroke" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="\?" style="@style/ProfileUserHeaderCountryNotDefTextTheme" />
+                <ImageView android:id="@id/countryFlagImage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/country_ar" />
+            </FrameLayout>
+        </LinearLayout>
+        <ImageView android:layout_gravity="bottom|right|center" android:id="@id/countryFlagPlus" style="@style/ProfileUserHeaderChangeCountryTheme" />
+    </FrameLayout>
+    <com.etermax.tools.widget.UsernameCustomFontTextView android:id="@id/username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/userCountry" android:layout_toRightOf="@id/userHeaderImage" android:layout_alignTop="@id/userHeaderImage" style="@style/ProfileUserHeaderUsernameTheme" />
+    <com.etermax.tools.widget.UsernameCustomFontTextView android:id="@id/usernameSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/userCountry" android:layout_toRightOf="@id/userHeaderImage" android:layout_below="@id/username" style="@style/ProfileUserHeaderUsernameSmallTheme" />
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/location" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/userCountry" android:layout_toRightOf="@id/userHeaderImage" android:layout_below="@id/usernameSmall" style="@style/ProfileUserHeaderInfoTheme" />
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/age" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/userHeaderImage" android:layout_below="@id/location" style="@style/ProfileUserHeaderInfoTheme" />
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/lastplayPrefix" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/userHeaderImage" android:layout_below="@id/age" style="@style/ProfileUserHeaderTextLastPlayPrefix" />
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/lastplay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/lastplayPrefix" android:layout_below="@id/age" style="@style/ProfileUserHeaderTextLastPlay" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/userHeaderImage" android:layout_below="@id/lastplay">
+        <RelativeLayout style="@style/ProfileUserHeaderFlagContainer">
+            <ImageView android:id="@id/flag1" android:src="@drawable/country_es" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" style="@style/ProfileUserHeaderFlag" />
+            <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:id="@id/flag1Text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/ProfileUserHeaderFlagCounter" />
+        </RelativeLayout>
+        <RelativeLayout style="@style/ProfileUserHeaderFlagContainer">
+            <ImageView android:id="@id/flag2" android:src="@drawable/country_es" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" style="@style/ProfileUserHeaderFlag" />
+            <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:id="@id/flag2Text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/ProfileUserHeaderFlagCounter" />
+        </RelativeLayout>
+        <RelativeLayout style="@style/ProfileUserHeaderFlagContainer">
+            <ImageView android:id="@id/flag3" android:src="@drawable/country_es" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" style="@style/ProfileUserHeaderFlag" />
+            <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:id="@id/flag3Text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/ProfileUserHeaderFlagCounter" />
+        </RelativeLayout>
+        <com.etermax.tools.widget.CustomFontTextView android:gravity="bottom" android:id="@id/moreFlags" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ProfileUserHeaderTextMoreFlags" />
+    </LinearLayout>
+</RelativeLayout>

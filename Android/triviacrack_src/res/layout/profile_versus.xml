@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.etermax.tools.widget.CustomFontTextView android:textColor="@color/white" android:id="@id/versusSectionTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/player_historical" style="@style/ProfileSectionVersusTitle" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/profile_versus_container" style="@style/ProfileVersus">
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.1" />
+        <com.etermax.tools.widget.ProfileProgressBar_ android:gravity="center" android:id="@id/versusProgressBar" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_weight="0.9" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5">
+            <com.etermax.tools.widget.CustomFontTextView android:textColor="@color/grayDarker" android:id="@id/totalText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/total_challenge" android:layout_centerHorizontal="true" style="@style/ProfileVersusText" />
+            <com.etermax.tools.widget.CustomFontTextView android:id="@id/totalValue" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/totalText" android:layout_centerHorizontal="true" style="@style/ProfileVersusText" />
+            <com.etermax.tools.widget.CustomFontTextView android:id="@id/youWonText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/you_won" style="@style/ProfileVersusText" />
+            <com.etermax.tools.widget.CustomFontTextView android:id="@id/youLostText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/you_lost" android:layout_alignParentRight="true" style="@style/ProfileVersusText" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

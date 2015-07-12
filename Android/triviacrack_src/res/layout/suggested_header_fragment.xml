@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/LoginHeaderTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.etermax.tools.widget.CustomFontTextView android:textColor="@color/white" style="@style/SuggestedHeaderTitleTheme" />
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/suggested_options_button" android:layout_margin="@dimen/login_header_next_button_margin" android:text="@string/filters" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/SuggestedHeaderNextButtonTheme" />
+</RelativeLayout>

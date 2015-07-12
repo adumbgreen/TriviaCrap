@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/DialogTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/main_title_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DialogMainTitleTheme" />
+    <com.etermax.tools.widget.CustomFontTextView android:id="@id/title_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DialogTitleTheme" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/common_dialog_vertical_padding">
+        <com.etermax.tools.widgetv2.CustomFontButton android:id="@id/button_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" style="@style/DialogAcceptButtonTheme" />
+        <com.etermax.tools.widgetv2.CustomFontButton android:id="@id/button_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" style="@style/DialogRedButtonTheme" />
+        <com.etermax.tools.widgetv2.CustomFontButton android:id="@id/button_3" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DialogCancelButtonTheme" />
+    </LinearLayout>
+</LinearLayout>

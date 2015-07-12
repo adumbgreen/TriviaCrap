@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days">
+        <item quantity="other">%1$d dies</item>
+        <item quantity="one">1 dia</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%1$d hores</item>
+        <item quantity="one">1 hora</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%1$d minuts</item>
+        <item quantity="one">1 minut</item>
+    </plurals>
+    <plurals name="new_messages">
+        <item quantity="other">%1$d nous missatges</item>
+        <item quantity="one">1 nou missatge</item>
+    </plurals>
+    <plurals name="amount_player">
+        <item quantity="other">%1$d Jugadors</item>
+        <item quantity="one">%1$d Jugador</item>
+    </plurals>
+    <plurals name="characters_limit">
+        <item quantity="other">"Has d'escriure almenys %1$d caracters."</item>
+        <item quantity="one">"Has d'escriure almenys 1 caracter."</item>
+    </plurals>
+    <plurals name="coins_pack">
+        <item quantity="other">paquet de %1$d Monedes</item>
+        <item quantity="one">paquet de %1$d Moneda</item>
+    </plurals>
+    <plurals name="lives_pack">
+        <item quantity="other">paquet de %1$d Vides</item>
+        <item quantity="one">paquet de %1$d Vida</item>
+    </plurals>
+    <plurals name="push_gifting_send_01">
+        <item quantity="other">"Porta %1$d dies sense guanyar. Ajuda'l!"</item>
+        <item quantity="one">"Porta 1 dia sense guanyar. Ajuda'l!"</item>
+    </plurals>
+    <plurals name="spins_pack">
+        <item quantity="other">paquet de %1$d Tiradas</item>
+        <item quantity="one">paquet de %1$d Tirada</item>
+    </plurals>
+    <plurals name="user_common_friend">
+        <item quantity="other">Tens %1$d amics en comú, incloent-hi %2$s i %3$s</item>
+        <item quantity="one">Tens un amic en comú</item>
+    </plurals>
+    <plurals name="user_favourite">
+        <item quantity="other">%1$s ha marcat %2$d %3$s com a favorits</item>
+        <item quantity="one">%1$s ha marcat %2$s com a favorit</item>
+    </plurals>
+    <plurals name="user_follow_now">
+        <item quantity="other">%1$s ara segueix %2$d amics</item>
+        <item quantity="one">%1$s ara segueix %2$s</item>
+    </plurals>
+    <plurals name="user_lost_group_challenge">
+        <item quantity="other">He perdut el duel amics %1$s contra %2$d amics a Preguntados</item>
+        <item quantity="one">He perdut el duel amics %1$s a Preguntados</item>
+    </plurals>
+    <plurals name="user_lost_worldcup_challenge">
+        <item quantity="other">He perdut el Duel Mundial %1$s contra %2$d amics a Preguntados</item>
+        <item quantity="one">He perdut el Duel Mundial %1$s a Preguntados</item>
+    </plurals>
+    <plurals name="user_won_group_challenge">
+        <item quantity="other">He guanyat el duel amics %1$s contra %2$d amics a Preguntados!</item>
+        <item quantity="one">He guanyat el duel amics %1$s a Preguntados!</item>
+    </plurals>
+    <plurals name="user_won_worldcup_challenge">
+        <item quantity="other">He guanyat el Duel Mundial %1$s contra %2$d amics a Preguntados!</item>
+        <item quantity="one">He guanyat el Duel Mundial %1$s a Preguntados!</item>
+    </plurals>
+    <plurals name="x_coupons_deal">
+        <item quantity="other">"You've entered %1$d coupons from %2$s's deal."</item>
+        <item quantity="one">"You've entered 1 coupon from %1$s's deal."</item>
+    </plurals>
+    <plurals name="start_group_challenge_txt">
+        <item quantity="other">Comença %1$s. Jugaràs contra %2$d amics!</item>
+        <item quantity="one">Comença %1$s. Jugaràs contra %2$s!</item>
+    </plurals>
+</resources>

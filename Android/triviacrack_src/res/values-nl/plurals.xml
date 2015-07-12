@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days">
+        <item quantity="other">%1$d dagen</item>
+        <item quantity="one">1 dag</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%1$d uren</item>
+        <item quantity="one">1 uur</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%1$d minuten</item>
+        <item quantity="one">1 minuut</item>
+    </plurals>
+    <plurals name="new_messages">
+        <item quantity="other">%1$d nieuwe berichten</item>
+        <item quantity="one">1 nieuw bericht</item>
+    </plurals>
+    <plurals name="amount_player">
+        <item quantity="other">%1$d Spelers</item>
+        <item quantity="one">%1$d Speler</item>
+    </plurals>
+    <plurals name="characters_limit">
+        <item quantity="other">Plaats minstens %1$d karakters</item>
+        <item quantity="one">Minstens 1 karakter</item>
+    </plurals>
+    <plurals name="coins_pack">
+        <item quantity="other">%1$d Munten pakket</item>
+        <item quantity="one">%1$d Munt pakket</item>
+    </plurals>
+    <plurals name="lives_pack">
+        <item quantity="other">%1$d Levens pakket</item>
+        <item quantity="one">%1$d Leven pakket</item>
+    </plurals>
+    <plurals name="push_gifting_send_01">
+        <item quantity="other">Zit je al voor %1$d dagen vast. Help een handje?</item>
+        <item quantity="one">Zit je al voor 1 dag vast. Help een handje?</item>
+    </plurals>
+    <plurals name="spins_pack">
+        <item quantity="other">%1$d Spins pakket</item>
+        <item quantity="one">%1$d Spin pakket</item>
+    </plurals>
+    <plurals name="user_common_friend">
+        <item quantity="other">Jullie hebben %1$d gemeenschappelijke vrienden zoals %2$s en %3$s</item>
+        <item quantity="one">Jullie hebben een gemeenschappelijke vriend</item>
+    </plurals>
+    <plurals name="user_favourite">
+        <item quantity="other">%1$s hebben %2$d %3$s als favoriete gemarkeerd</item>
+        <item quantity="one">%1$s heeft %2$s als favoriet gemarkeerd</item>
+    </plurals>
+    <plurals name="user_follow_now">
+        <item quantity="other">%1$s volgt nu %2$d vrienden</item>
+        <item quantity="one">%1$s volgt nu %2$s</item>
+    </plurals>
+    <plurals name="user_lost_group_challenge">
+        <item quantity="other">Ik heb zojuist de vriend uitdaging verloren %1$s van %2$d vrienden in Trivia Crack</item>
+        <item quantity="one">Ik heb zojuist de vriend uitdaging verloren %1$s in Trivia Crack</item>
+    </plurals>
+    <plurals name="user_lost_worldcup_challenge">
+        <item quantity="other">Ik heb het Cup Duel verloren %1$s van %2$d vrienden in Trivia Crack</item>
+        <item quantity="one">Ik heb het Cup Duel verloren %1$s in Trivia Crack</item>
+    </plurals>
+    <plurals name="user_won_group_challenge">
+        <item quantity="other">Ik heb de vriend uitdaging gewonnen %1$s van %2$d vrienden in Trivia Crack!</item>
+        <item quantity="one">Ik heb de vriend uitdaging gewonnen %1$s in Trivia Crack!</item>
+    </plurals>
+    <plurals name="user_won_worldcup_challenge">
+        <item quantity="other">Ik heb het Cup Duel %1$s van %2$d vrienden in Trivia Crack!</item>
+        <item quantity="one">Ik heb het Cup Duel gewonnen %1$s in Trivia Crack!</item>
+    </plurals>
+    <plurals name="x_coupons_deal">
+        <item quantity="other">"Je hebt %1$d coupon ingevoerd van %2$s's deal."</item>
+        <item quantity="one">"Je hebt 1 coupon ingevoerd van %1$s's deal."</item>
+    </plurals>
+</resources>

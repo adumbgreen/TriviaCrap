@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/DashboardTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/background_layout" />
+    <RelativeLayout android:id="@id/choose_crown_header" style="@style/NavBarHeaderTheme">
+        <com.etermax.tools.widget.CustomFontTextView android:id="@id/category_duel_crown_header_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/NavBarHeaderTextViewTheme" />
+    </RelativeLayout>
+    <com.etermax.tools.widget.CustomLinearButton android:gravity="center" android:orientation="horizontal" android:id="@id/play_button" android:layout_width="fill_parent" android:layout_margin="@dimen/question_answer_button_padding" android:layout_alignParentBottom="true" style="@style/CrownPlayButtonTheme">
+        <ImageView android:paddingRight="@dimen/leftright_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_play" android:scaleType="centerInside" />
+        <com.etermax.tools.widget.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/play" style="@style/CrownPlayButtonTextViewTheme" />
+    </com.etermax.tools.widget.CustomLinearButton>
+    <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:id="@id/duel_choose_crown_title_textview" android:padding="@dimen/leftright_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/choose_duel_margin_top" android:layout_marginBottom="@dimen/choose_duel_margin_bot" android:text="@string/trivia_challenge_character_to_win" android:layout_below="@id/choose_crown_header" style="@style/ChooseCrownTitleTextview" />
+    <ScrollView android:id="@id/duel_choose_crown_scroll" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/play_button" android:layout_below="@id/duel_choose_crown_title_textview">
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="center" android:id="@id/categories_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/leftright_padding">
+                <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:id="@id/duel_crown_to_lose_textview" android:paddingLeft="@dimen/leftright_padding" android:paddingRight="@dimen/leftright_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/choose_duel_subtitle_margin_top" android:text="@string/trivia_challenge_character_txt_01" android:layout_centerHorizontal="true" style="@style/ChooseCrownSubtitleTextview" />
+                <include android:id="@id/duel_my_crowns_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/choose_duel_button_margin" android:layout_below="@id/duel_crown_to_lose_textview" layout="@layout/game_duel_crown_choose_layout" />
+                <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:id="@id/duel_crown_to_win_textview" android:paddingLeft="@dimen/leftright_padding" android:paddingRight="@dimen/leftright_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/choose_duel_subtitle_margin_top" android:text="@string/trivia_challenge_character_txt_02" android:layout_below="@id/duel_my_crowns_container" android:layout_centerHorizontal="true" style="@style/ChooseCrownSubtitleTextview" />
+                <include android:id="@id/duel_opponent_crowns_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/choose_duel_button_margin" android:layout_below="@id/duel_crown_to_win_textview" layout="@layout/game_duel_crown_choose_layout" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
