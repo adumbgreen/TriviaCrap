@@ -1,0 +1,4 @@
+IIViewDeckController 			- main view controller
+PRQuestionViewController 		- active vc when you're answering a question
+PRAnswerGrouipView 				- sub-view for answers
+PRPowerUp						- power-up class
