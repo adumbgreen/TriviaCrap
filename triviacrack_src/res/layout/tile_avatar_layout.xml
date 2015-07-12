@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wordcrack="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/tile_image_downloaded" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <com.etermax.tools.widget.CustomFontTextView android:textSize="@dimen/chat_avatar_letter_size" android:textColor="@color/grayDarker" android:id="@id/tile_image_big_letter" android:paddingBottom="13.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="A" android:layout_centerInParent="true" wordcrack:font="alternative_bold.ttf" />
-    <com.etermax.tools.widget.CustomFontTextView android:textSize="@dimen/chat_avatar_value_size" android:textColor="@color/grayDarker" android:id="@id/tile_image_number_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" android:layout_toRightOf="@id/tile_image_big_letter" android:layout_alignTop="@id/tile_image_big_letter" wordcrack:font="alternative_bold.ttf" />
-</RelativeLayout>

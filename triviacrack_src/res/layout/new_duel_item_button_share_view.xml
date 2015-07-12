@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:paddingLeft="@dimen/leftright_padding" android:paddingTop="@dimen/topbottom_padding" android:paddingRight="@dimen/leftright_padding" android:paddingBottom="@dimen/topbottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.etermax.tools.widget.CustomFontButton android:id="@id/item_button" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DuelModeShareButtonTheme" />
-</FrameLayout>

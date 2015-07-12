@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.etermax.mopubads.MopubBannerView android:id="@id/ad_place_mopub" android:layout_width="fill_parent" android:layout_height="50.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ViewSwitcher android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/tile_image_icon" android:layout_width="35.0dip" android:layout_height="35.0dip" />
-    <com.etermax.gamescommon.resources.PlayerTileView android:id="@id/tile_default" android:layout_width="@dimen/player_item_icon_size_extra_small" android:layout_height="@dimen/player_item_icon_size_extra_small" style="@style/RandomAvatarTheme" />
-</ViewSwitcher>

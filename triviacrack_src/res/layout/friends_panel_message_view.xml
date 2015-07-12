@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.etermax.tools.widget.CustomFontTextView android:textSize="@dimen/friends_panel_last_message_text_size" android:textColor="@color/friends_panel_last_message" android:gravity="center" android:id="@id/message" android:background="@color/grayBlue_darkest" android:padding="@dimen/friends_panel_loading_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_search_results" style="@style/FriendsPanelNoResultTextTheme" />
-</merge>

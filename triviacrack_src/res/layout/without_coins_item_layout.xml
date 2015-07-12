@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="2.0dip" style="@style/WithoutCoinsItemBackground"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.etermax.tools.widget.CustomFontTextView android:id="@id/item_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="XX coins" style="@style/GetSpinsBuyItemDescription" />
-    <ImageView android:id="@id/item_image" android:layout_width="wrap_content" android:layout_height="0.0dip" android:scaleType="centerInside" android:layout_weight="1.0" />
-    <com.etermax.tools.widget.CustomFontButton android:id="@id/item_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="@dimen/leftright_padding" style="@style/GetSpinAquaButton" />
-</LinearLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout style="@style/LoginHeaderTheme"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.etermax.tools.widget.CustomFontTextView style="@style/LoginHeaderTitleTheme"
-      xmlns:android="http://schemas.android.com/apk/res/android" />
-</RelativeLayout>

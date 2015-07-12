@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.etermax.tools.widget.OutlineTextView android:id="@id/answer_correct_textview" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/correct" android:layout_centerInParent="true" style="@style/QuestionCorrectTextViewStyle" />
-    <com.etermax.tools.widget.OutlineTextView android:id="@id/answer_incorrect_textview" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/incorrect" android:layout_centerInParent="true" style="@style/QuestionIncorrectTextViewStyle" />
-    <com.etermax.tools.widget.OutlineTextView android:id="@id/answer_time_up_textview" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/time_up" android:layout_centerInParent="true" style="@style/QuestionTimeUpTextViewStyle" />
-    <com.etermax.tools.widget.OutlineTextView android:id="@id/answer_try_again_textview" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/try_again" android:layout_centerInParent="true" style="@style/QuestionTryAgainTextViewStyle" />
-</RelativeLayout>

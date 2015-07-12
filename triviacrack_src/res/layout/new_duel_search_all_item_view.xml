@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/NewDuelModeItemSearchStyle"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/search_all" style="@style/NewDuelModeSearchAllText" />
-    <ProgressBar android:id="@id/item_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true" android:layout_alignParentRight="true" style="@android:style/Widget.ProgressBar.Small" />
-</RelativeLayout>

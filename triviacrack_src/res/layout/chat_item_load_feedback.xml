@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ViewFlipper android:layout_width="wrap_content" android:layout_height="wrap_content" android:autoStart="false"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ProgressBar android:id="@id/loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
-    <ImageButton android:id="@id/start_upload" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/abc_ic_search" android:contentDescription="@null" />
-    <ImageButton android:id="@id/start_download" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/abc_ic_clear" android:contentDescription="@null" />
-</ViewFlipper>

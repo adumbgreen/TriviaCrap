@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:id="@id/left_tile_view" android:visibility="gone" android:layout_width="@dimen/player_item_icon_size_small" android:layout_height="@dimen/player_item_icon_size_small" android:layout_marginLeft="@dimen/game_player_item_icon_padding_side" android:layout_marginTop="@dimen/game_player_item_icon_padding_top" android:layout_marginRight="3.0dip" layout="@layout/common_user_icon_rounded" />
-    <include android:id="@id/right_tile_view" android:visibility="gone" android:layout_width="@dimen/player_item_icon_size_small" android:layout_height="@dimen/player_item_icon_size_small" android:layout_marginLeft="3.0dip" android:layout_marginTop="@dimen/game_player_item_icon_padding_top" android:layout_alignParentRight="true" layout="@layout/common_user_icon_rounded" />
-    <com.etermax.tools.widget.CustomFontTextView android:ellipsize="end" android:id="@id/user_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/game_player_item_icon_padding_top" android:singleLine="true" android:layout_toLeftOf="@id/right_tile_view" android:layout_toRightOf="@id/left_tile_view" style="@style/CategoryUser" />
-    <include android:id="@id/crowns_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/game_crown_margin" android:layout_alignParentBottom="true" layout="@layout/game_category_crowns_player_one_layout" />
-</RelativeLayout>

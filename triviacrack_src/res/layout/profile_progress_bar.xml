@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/container" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/ProfileProgressBarContainerTheme"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/progressWin" android:visibility="invisible" android:layout_width="0.0dip" android:layout_alignParentLeft="true" style="@style/ProfileProgressBarWinTheme" />
-    <com.etermax.tools.widget.CustomFontTextView android:id="@id/txtWin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/ProfileProgressBarTextTheme" />
-    <RelativeLayout android:id="@id/progressLoss" android:visibility="invisible" android:layout_width="0.0dip" android:layout_alignParentRight="true" style="@style/ProfileProgressBarLossTheme" />
-    <com.etermax.tools.widget.CustomFontTextView android:id="@id/txtLoses" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/ProfileProgressBarTextTheme" />
-</RelativeLayout>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/section_container" android:layout_width="fill_parent" android:layout_height="@dimen/dashboard_section_height" style="@style/NewDuelSectionTheme">
-        <com.etermax.tools.widget.CustomFontTextView android:gravity="center" android:id="@id/players_count" android:layout_width="@dimen/duel_mode_result_score_width" android:layout_height="wrap_content" android:layout_marginRight="@dimen/leftright_padding" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/DashboardSectionTextViewTheme" />
-        <com.etermax.tools.widget.CustomFontTextView android:id="@id/section_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/leftright_padding" android:singleLine="true" android:layout_toLeftOf="@id/players_count" android:layout_centerVertical="true" style="@style/DashboardSectionTextViewTheme" />
-    </RelativeLayout>
-</RelativeLayout>

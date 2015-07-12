@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="new_game_flag_name">9.0dip</dimen>
-    <dimen name="new_game_button_detail_text">13.0dip</dimen>
-    <dimen name="factory_ok_button">11.0dip</dimen>
-    <dimen name="duel_share_win_text">28.0px</dimen>
-</resources>

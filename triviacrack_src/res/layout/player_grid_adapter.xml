@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:layout_gravity="center_horizontal" android:id="@id/player_image" android:layout_width="@dimen/player_item_icon_big_size" android:layout_height="@dimen/player_item_icon_big_size" layout="@layout/common_user_icon_rounded" />
-    <TextView android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/player_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/PlayerGridAdapterName" />
-</LinearLayout>

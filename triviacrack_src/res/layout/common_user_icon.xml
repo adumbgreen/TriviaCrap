@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ViewSwitcher android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/tile_image_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <com.etermax.gamescommon.user.LoadingDefaultUserAvatar_ android:id="@id/tile_default" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</ViewSwitcher>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@drawable/etermaxtools_base_dialog_background" android:paddingLeft="@dimen/loading_dialog_horizontal_padding" android:paddingTop="@dimen/loading_dialog_vertical_padding" android:paddingRight="@dimen/loading_dialog_horizontal_padding" android:paddingBottom="@dimen/loading_dialog_vertical_padding" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/loading_dialog_progress_margin" android:layout_alignTop="@id/loading_text_view" android:layout_alignBottom="@id/loading_text_view" style="@android:style/Widget.ProgressBar.Small" />
-    <TextView android:textSize="@dimen/font_large" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/loading_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/progress_bar" />
-    <com.etermax.tools.widgetv2.CustomFontButton android:id="@id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/loading_text_view" android:layout_alignLeft="@id/progress_bar" android:layout_alignRight="@id/loading_text_view" style="@style/DialogRedButtonTheme" />
-</RelativeLayout>

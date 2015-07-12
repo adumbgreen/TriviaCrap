@@ -1,9 +1,0 @@
-Package: me.hgal.triviacrack
-Name: TriviaCrap
-Depends: mobilesubstrate
-Version: 1.1
-Architecture: iphoneos-arm
-Description: Trivia Crack cheats
-Maintainer: Harry Gallagher
-Author: Harry Gallagher
-Section: Tweaks

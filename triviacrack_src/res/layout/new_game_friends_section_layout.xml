@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:paddingBottom="@dimen/new_game_friend_item_gap" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/section_container" style="@style/NewGameFriendsFacebookSection">
-        <com.etermax.tools.widget.CustomFontTextView android:id="@id/section_text_view" style="@style/NewGameFriendsFacebookSectionText" />
-        <com.etermax.tools.widget.CustomFontTextView android:id="@id/section_button_view" android:text="@string/invite_all" android:layout_alignParentRight="true" style="@style/NewGameFriendsFacebookSectionInviteText" />
-    </RelativeLayout>
-</LinearLayout>

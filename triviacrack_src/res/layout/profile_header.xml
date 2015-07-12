@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout style="@style/ProfileHeaderTheme"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.etermax.tools.widget.CustomFontTextView android:text="@string/profile" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@style/ProfileHeaderTitleTheme" />
-    <ImageView android:id="@id/headerOptionsButton" android:src="@drawable/profile_menu" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/ProfileHeaderOptionButton" />
-    <ImageView android:id="@id/headerShareButton" android:visibility="gone" android:src="@drawable/icon_share" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/ProfileHeaderShareButton" />
-</RelativeLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/leftright_padding" android:layout_marginTop="@dimen/leftright_padding" android:layout_marginRight="@dimen/leftright_padding"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.etermax.tools.widget.CustomFontButton android:id="@id/answer_button" style="@style/AnswerButtonStyle" />
-    <include android:id="@id/opponent_image" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/leftright_padding" android:layout_alignParentTop="true" android:layout_alignParentRight="true" layout="@layout/game_duel_opponent_player_answer_tile" />
-</RelativeLayout>

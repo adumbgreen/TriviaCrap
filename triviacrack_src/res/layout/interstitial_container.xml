@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/ad_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/ad_image" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
-    <LinearLayout android:id="@id/ad_web_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <Button android:layout_gravity="top|right|center" android:id="@id/ad_close_button" android:background="@drawable/close_button_banner_states" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" />
-</FrameLayout>

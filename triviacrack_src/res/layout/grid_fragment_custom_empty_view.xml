@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.etermax.gamescommon.user.UserGridView_ android:id="@id/android:grid" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@null" android:drawSelectorOnTop="false" android:horizontalSpacing="2.0dip" android:verticalSpacing="2.0dip" android:stretchMode="columnWidth" android:numColumns="3" android:layout_weight="1.0" />
-    <com.etermax.tools.widget.CustomFontTextView android:id="@*android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ListFragmentEmptyTextView" />
-</LinearLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout style="@style/AchievementNavBarHeaderTheme"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.etermax.tools.widget.CustomFontTextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/player_achievements" style="@style/AchievementHeaderTitle" />
-    <ViewSwitcher android:id="@id/achievements_header_view_switcher" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
-        <ImageView android:id="@id/view_acheivement_grid" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/icon_grid" style="@style/AchievementHeaderGridButton" />
-        <ImageView android:id="@id/view_acheivement_list" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/icon_list" style="@style/AchievementHeaderListButton" />
-    </ViewSwitcher>
-</RelativeLayout>
