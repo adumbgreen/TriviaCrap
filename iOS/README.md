@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-TriviaCrap-Android
-==================
-
-Stupid cheats for Trivia Crack
-=======
 #TriviaCrap-iOS
 
 A set of cheats for Trivia Crack.
@@ -28,4 +22,3 @@ It can be built from the command line using these commands:
 *This requires that you have `$THEOS_DEVICE_IP` set to your device's ip.
 
 `make package install`
->>>>>>> TriviaCrap-iOS/master
