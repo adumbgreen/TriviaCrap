@@ -9,8 +9,8 @@ public class SettingsActivity extends PreferenceActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        getFragmentManager().beginTransaction().replace(android.R.id.content, new SettingsFragment()).commit();
-        PreferenceManager.setDefaultValues(this, R.xml.prefs, false);
-        getPreferenceManager().setSharedPreferencesMode(MODE_WORLD_READABLE);
+        getFragmentManager().beginTransaction().replace(android.R.id.content, new SettingsFragment()).commit(); // Add fragment
+        PreferenceManager.setDefaultValues(this, R.xml.prefs, false); // Load settings from xml/prefs.xml
+        getPreferenceManager().setSharedPreferencesMode(MODE_WORLD_READABLE); // Update file permissions so it's readable
     }
 }
